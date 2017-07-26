@@ -227,5 +227,47 @@ Studio and choose a workspace location. Close the welcome-window and then select
 "Project-\>Import CCS Projects..." In the upcoming window choose the option "Select search-directory"
 and click the "Browse" - button. Navigate to the directory of your motorware installation,
 go to the folder
-_`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\`_		
+_`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 and click the "OK" button.
+
+In the "Discovered projects¿ ¿ list below you will see all the projects lying in the selected directory.
+Here, you can choose for example the project _¿TAPAS\_quick\_start¿_, which represents the demo firmware used with the python ¿ 
+script for the Raspberry PI.
+
+For all the other projects in the folders
+_`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
+and
+_`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_motion\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
+
+please have a look at the _¿InstaSPIN Projects and Labs User¿s Guide¿_ which comes together with the motorware-installation 
+and is located at
+_`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf`_ with a standard-motorware installation.
+There you can further find some information how to compile the firmware, start a debugging session, flash the DSP and get an
+impression, what all the program components actually do. Please keep in mind, that all the labs for driving two motors independent
+with one DSP are not possible with TAPAS, as there is only one 3-phase power stage.
+
+To be able to run our TAPAS demo-webapp you also require the InstaSPIN-UNIVERSALGUI from Texas Instruments which you can get here:
+
+<http://www.ti.com/tool/INSTASPINUNIVERSALGUI>
+
+You have now completed the installation of the TAPAS development environment. We have created a TAPAS-webapp including not only	
+external IO for you to check if everything is working ok. Download it here:	
+
+```
+https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASwebapp.zip
+```
+unzip it and place it in the folder:
+
+```
+<drive>:\ti\guicomposer\webapps\
+```
+
+__And now? How do we get it running?__
+
+If you plan to do unlock even more features of TAPAS, we recommend installing the Texas Instruments controlSUITE which is available here:
+
+<http://www.ti.com/tool/controlsuite>
+
+It delivers a lot of ready-to-use peripheral-drivers and examples for the C2000DSP series.
+
+
