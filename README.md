@@ -1,16 +1,16 @@
 # TAPAS
 Community drives inverter project
 
-##Differences between the TAPAS developer-version and TAPAS version 1.0
-+Pin 4 of the JTAG-Interface-Connector SV2 is not connected to GND in the developer version, this has been fixed to version 1.0. You have to solder Pin 4 of SV2 to GND by hand, to be able to flash the DSP.
-+version 1.0 has more PINs of the Raspberry-Pi socket (SV4) connected to GND, in the developer-version, only the Pins 34 and 39 were connected to GND. Therefore, you cannot use a Nano Pi on this socket, as the GND connection to TAPAS is missing then.
-+The SPI-Chip Select on GPIO53 óf the DSP that is connected to SV4 via the address DIP-switch(2) is connected to Pin 26 of SV4 in the development-version and is now moved to Pin 16 in TAPAS V1.0
-+The resistor R\_MISO\_1 is populated in the development-version of TAPAS, but not in version 1.0 any more
-+The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more
-+The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
+## Differences between the TAPAS developer-version and TAPAS version 1.0
++ Pin 4 of the JTAG-Interface-Connector SV2 is not connected to GND in the developer version, this has been fixed to version 1.0. You have to solder Pin 4 of SV2 to GND by hand, to be able to flash the DSP.
++ version 1.0 has more PINs of the Raspberry-Pi socket (SV4) connected to GND, in the developer-version, only the Pins 34 and 39 were connected to GND. Therefore, you cannot use a Nano Pi on this socket, as the GND connection to TAPAS is missing then.
++ The SPI-Chip Select on GPIO53 óf the DSP that is connected to SV4 via the address DIP-switch(2) is connected to Pin 26 of SV4 in the development-version and is now moved to Pin 16 in TAPAS V1.0
++ The resistor R\_MISO\_1 is populated in the development-version of TAPAS, but not in version 1.0 any more
++ The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more
++ The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
 
 
-##Foreword and acknowledgements
+## Foreword and acknowledgements
 
 This board (TAPAS) is intended to train the next generation of power 
 electronics researchers and (application) engineers. It is designed as an 
