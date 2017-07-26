@@ -153,7 +153,7 @@ git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
 sudo halt
 ```
 + Set the SPI-Address select DIP switch to (OFF)-(ON)-(OFF)-(OFF) for the switch 
-positions from (1) ¿ (4) (see pinout)
+positions from (1) - (4) (see pinout)
 + Disconnect the Raspberry PI from any power source and plug it into the TAPAS
 Raspberry PI board connector (see pinout).
 + Connect your TAPAS board to a DC power supply and to a DC brushless motor (see pinout).
@@ -166,3 +166,66 @@ python3 TAPASstart.py
 ```
 + Then follow the prompts on the monitor.
 
+3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
+
+__CAUTION__	
+
+__The stock TAPAS firmware implements software features that ensure safe operation.
+Changing the stock TAPAS firmware may damage or destroy your TAPAS board, lead to
+harm and/or danger. Make sure that you fully understand the supplied sample code and
+the underlying principles before flashing your own firmware.__
+
+For programming the TAPAS-Board, we recommend Code Composer Studio from Texas Instruments.
+It is free of charge and can be downloaded from here:
+
+<http://processors.wiki.ti.com/index.php/Download_CCS>
+
+Choose the correct setup-package for your OS and install it following the instructions in
+theinstallation-wizard.
+
+The drivers for the OLIMEX JTAG-Debug probe are included in the standard installation
+package. If you choose a JTAG Programmer from another vendor ¿ make sure that you installed
+the correct drivers and that it is compatible with code composer studio.
+
+
+To be able to use the InstaSpin capabilities of the DSP, you require ¿motorware¿ version
+1\_01\_00\_16. Install git for your operating system and clone the repository in the same
+way, you did it for the Raspberry Pi calling
+
+```
+git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
+```
+
+Motorware is only available as a windows installer executable also included in the 
+previously cloned repository in the file `_motorware.zip_`.
+
+Alternatively you can download the archive with the windows installer via a browser here:
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>
+
+As the TAPAS board definition is not contained in motorware per default and TAPAS has some
+additional features, compared to most of the development-kits from TI, some modifications
+to your motorware installation have to be done before being able to do firmware-development
+for this platform. These modifications basically include inserting some additional drivers 
+and replacing existing modules, that are for example needed for the external IO of the board.	
+
+All the necessary changes to motorware can be done automatically by using our patch-file
+`_SDITAPASmotorwarePatch.patch_` included in the previously cloned repository.
+
+If you use git in bash-mode, you have a possibility to run the patch command for changing
+your motorware-installation under windows.
+Copy the file `_SDITAPASmotorwarePatch.patch_` to the motorware installation folder
+(usually `_C:\ti\_`), start git in bash mode in this folder and execute the following commands:
+
+```
+dos2unix SDITAPASmotorwarePatch.patch
+patch ¿p0 ¿i SDITAPASmotorwarePatch.patch
+```
+
+If this command has finished execution successfully, you can start with the motorware-labs
+and the quick-start demo firmware. To edit the quick-start project, start Code Composer 
+Studio and choose a workspace location. Close the welcome-window and then select 
+¿Project-\>Import CCS Projects...¿ In the upcoming window choose the option "Select search-directory¿
+and click the ¿Browse¿ ¿ button. Navigate to the directory of your motorware installation,
+go to the folder
+`_<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\_`		
+and click the ¿OK¿ button.
