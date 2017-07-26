@@ -20,7 +20,7 @@ SIEMENS AG - July 2017
 
 Document version 0.1
 
-			__CAUTION__
+__CAUTION__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
 laboratory use only. Never use it in a productive environment!__
@@ -127,3 +127,42 @@ fasten the two PCBs together. Then you will need
 	+ 4 screw nuts M2,5 (plastic)
 	+ 4 spacers M2,5 x 10mm with one male and one female thread (plastic)
 	+ 12 washers M2,5 (plastic)
+
+2. GETTING STARTED WITH TAPAS AND RASPBERRY PI
+
++ Create an SD-Card image for your Raspberry Pi Zero (W)
+(<https://www.raspberrypi.org/documentation/installation/installing-images/>)
++ Insert SD card in Raspberry PI Zero (W) and check that the Raspberry PI boots to a command prompt
++ Make sure that you have a working Python 3.0 and git installation
+
+```
+python --version
+git --version
+```
++ Get the TAPAS software and documentation package from 
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS>
+and place it into your home folder
+
+```
+cd
+git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
+```
++ If successful, halt your Raspberry PI
+
+```
+sudo halt
+```
++ Set the SPI-Address select DIP switch to (OFF)-(ON)-(OFF)-(OFF) for the switch 
+positions from (1) ¿ (4) (see pinout)
++ Disconnect the Raspberry PI from any power source and plug it into the TAPAS
+Raspberry PI board connector (see pinout).
++ Connect your TAPAS board to a DC power supply and to a DC brushless motor (see pinout).
++ Set the supply voltage to 12V with 3A current limit and turn it on.
++ Log into your Raspberry PI and type
+
+```
+cd ~/TAPAS
+python3 TAPASstart.py
+```
++ Then follow the prompts on the monitor.
+
