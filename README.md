@@ -77,11 +77,14 @@ fun with TAPAS as we had making it.
 						Dominic Buchstaller
 					(Concept and  lead-design - TAPAS)
 
+<http://www.siemens.com>
+
+<http://sdi.fau.de>
 
 __Created by :__
 
 _SDI (Software Defined Inverter)_
- \* in-house start-up for I/Os
+\* in-house start-up for I/Os
 
 __Components sponsored by:__
 
