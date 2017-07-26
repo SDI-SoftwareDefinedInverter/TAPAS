@@ -20,7 +20,7 @@ SIEMENS AG - July 2017
 
 Document version 0.1
 
-__CAUTION__
+			__CAUTION__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
 laboratory use only. Never use it in a productive environment!__
