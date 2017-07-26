@@ -75,3 +75,28 @@ fun with TAPAS as we had making it.
 
 
 (is adding the logos here ok ? )
+
+1. INTRODUCTION	
+
+This quick-start-guide will lead you through the necessary steps to get TAPAS
+up and running with most commercially available DC-brushless motors.
+If you are new to Texas Instrument DSPs or power conversion, we advise you	
+to start with this guide. It will take you through the necessary steps to set-up 
+your (coding) environment and bring the board to life. You are then free to
+explore the endless possibilities that the platform provides.
+
+### TAPAS key characteristics
++ DC-Input 12V ¿ 48V
++ Maximum DC / AC (per phase) current - 30A
++ Up to 300W continuous power - passively cooled (@>120kHz switching frequency)
++ Switching frequency up to 600 kHz at reduced load
++ On-board output-filter for sinusoidal AC output
++ Texas Instruments C2000 Piccolo (TMS320F28069M) DSP - InstaSPIN-enabled
++ CAN, GPIO, UART, SPI, 2 x QEP (encoder) interface onboard
++ Raspberry-Pi compatible
+
+### Box contents
++ TAPAS board
++ This quick-start guide
++ An SDI sticker
++ 7 (optional) board-connectors (JP7, JP10, JP11, JP13, JP14, SV3, SV4) for hand-soldering
