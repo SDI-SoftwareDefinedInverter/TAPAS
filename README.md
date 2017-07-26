@@ -9,7 +9,7 @@ Community drives inverter project
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more, solder in by hand, if you need one of them
 + The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
 
-## TAPAS Quick-Start Guide
+### TAPAS Quick-Start Guide
 Use your TAPAS board with Raspberry PI and TI InstaSPIN
 
 SIEMENS AG - July 2017 
