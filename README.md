@@ -11,15 +11,18 @@ Community drives inverter project
 
 ## TAPAS Quick-Start Guide
 Use your TAPAS board with Raspberry PI and TI InstaSPIN
+
 SIEMENS AG - July 2017 
+
 Document version 0.1
 
-CAUTION
+__CAUTION__
+
 The TAPAS community inverter board is not a toy! It is intended for
 laboratory use only. Never use it in a productive environment!	
 (see section 6)
 
-The TAPAS board can get very hot ¿ never touch the board during	
+The TAPAS board can get very hot never touch the board during	
 operation. Always use an appropriate case.
 
 If the TAPAS board is used in conjunction with mechanical,	
