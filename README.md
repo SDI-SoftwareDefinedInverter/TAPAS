@@ -184,11 +184,11 @@ Choose the correct setup-package for your OS and install it following the instru
 theinstallation-wizard.
 
 The drivers for the OLIMEX JTAG-Debug probe are included in the standard installation
-package. If you choose a JTAG Programmer from another vendor ¿ make sure that you installed
+package. If you choose a JTAG Programmer from another vendor make sure that you installed
 the correct drivers and that it is compatible with code composer studio.
 
 
-To be able to use the InstaSpin capabilities of the DSP, you require ¿motorware¿ version
+To be able to use the InstaSpin capabilities of the DSP, you require motorware version
 1\_01\_00\_16. Install git for your operating system and clone the repository in the same
 way, you did it for the Raspberry Pi calling
 
@@ -197,7 +197,7 @@ git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
 ```
 
 Motorware is only available as a windows installer executable also included in the 
-previously cloned repository in the file `_motorware.zip_`.
+previously cloned repository in the file _`motorware.zip`_.
 
 Alternatively you can download the archive with the windows installer via a browser here:
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>
