@@ -283,7 +283,7 @@ A: You can get one here: <http://xxx>
 
 Q: Can I use other JTAG-Programmers than the OLIMEX?
 
-A: Yes you can. As long as it¿s 3,3V compatible and supported by Code Composer Studio it should work.
+A: Yes you can. As long as it's 3,3V compatible and supported by Code Composer Studio it should work.
 
 
 Q: Can I run the board at full power for longer periods of time?
@@ -292,7 +292,7 @@ A: Yes you can. In that case it is important to manage the board temperature. We
 and dynamically limit the output current. Keep the board temperature below 90°C at all times to keep your TAPAS board healthy.
 
 
-Q: If I abruptly reduce the speed of my motor ¿ why is the JTAG-connection interrupted or other funny things happen?
+Q: If I abruptly reduce the speed of my motor why is the JTAG-connection interrupted or other funny things happen?
 
 A: It is very likely that you are using a DC power supply and not a battery to power TAPAS. The breaking energy is fed back into the DC supply and
 causes an abrupt rise in DC voltage. Note that although TAPAS is designed to absorb some breaking energy, excessive DC voltage peaks may damage the
@@ -310,8 +310,8 @@ The following documents can be helpful in developing with TAPAS:
 + This 13document(quick start guide):
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
 + InstaSPIN-FOC and InstaSPIN-MOTION user guide : 
-<www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
-+ Instaspin projects and labs user¿s guide 
+<http://www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
++ Instaspin projects and labs user's guide 
 -\> see motorware (<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf)
 + TMS320F28069MPZT overview and datasheet: 
 <http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
