@@ -270,4 +270,5 @@ If you plan to do unlock even more features of TAPAS, we recommend installing th
 
 It delivers a lot of ready-to-use peripheral-drivers and examples for the C2000DSP series.
 
+![TAPAS-pinout](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
