@@ -78,7 +78,19 @@ fun with TAPAS as we had making it.
 					(Concept and  lead-design - TAPAS)
 
 
-(is adding the logos here ok ? )
+__Created by :__ _
+
+SDI (Software Defined Inverter, \* in-house start-up for I/Os)_
+
+__Components sponsored by:__
+
+_Texas Instruments_ <http://www.ti.com>
+
+_Efficient power conversion (EPC)_ <http://epc-co.com>
+
+_WÜRTH ELEKTRONIK_ <http://www.we-online.com>
+
+_Allegro Microsystems_ <http://www.allegromicro.com>
 
 1. INTRODUCTION	
 
