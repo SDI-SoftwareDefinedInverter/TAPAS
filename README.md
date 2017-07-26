@@ -100,3 +100,26 @@ explore the endless possibilities that the platform provides.
 + This quick-start guide
 + An SDI sticker
 + 7 (optional) board-connectors (JP7, JP10, JP11, JP13, JP14, SV3, SV4) for hand-soldering
+
+### Required materials 
+To get started with TAPAS you will need the following (additional) items.
+
++ We highly recommend placing TAPAS in __a case__. This will keep your TAPAS board safe.
+The 3D model for our very own case can be found and downloaded here:
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAShousing.zip>	
+The archive contains multiple files for e.g. the bottom part and the lid of the case.
+If you don¿t own a 3D printer, many local 3D printing services are available on-line.
+Print in ABS.				
++ __DC power supply__ with minimum 12V and >3A continuous current output.
+Alternatively, you may use any battery with the correct voltage and an appropriate
+fuse in the supply line	
++ A __DC brushless motor__	
++ If you want to use TAPAS with __Raspberry PI__ we recommend an Raspberry PI Zero (W)
++ If you want to start programming with TAPAS you will need a __JTAG programmer__.
+We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
++ If you want to use the TAPAS platform with a Raspberry Pi, you may also want to
+fasten the two PCBs together. Then you will need
+	+ 4 screws M2,5 x 6mm (plastic)	
+	+ 4 screw nuts M2,5 (plastic)
+	+ 4 spacers M2,5 x 10mm with one male and one female thread (plastic)
+	+ 12 washers M2,5 (plastic)
