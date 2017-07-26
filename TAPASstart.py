@@ -36,7 +36,7 @@
 
 # modules for spi communication
 import spidev
-import TAPASComm
+import TAPASCommV1_0
 
 # other modules for data handling
 import struct
