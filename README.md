@@ -230,7 +230,7 @@ go to the folder
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 and click the "OK" button.
 
-In the "Discovered projects" list below you will see all the projects lying in the selected directory.
+In the "Discovered projects" - list below you will see all the projects lying in the selected directory.
 Here, you can choose for example the project _"TAPAS\_quick\_start"_, which represents the demo firmware used with the python - 
 script for the Raspberry PI.
 
@@ -273,3 +273,45 @@ It delivers a lot of ready-to-use peripheral-drivers and examples for the C2000D
 Here comes the pinout for the TAPAS-board:
 ![TAPAS-pinout](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
+
+4. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
+
+Q: Where can I get a TAPAS board 
+
+A: You can get one here: <http://xxx>	
+
+
+Q: Can I use other JTAG-Programmers than the OLIMEX?
+
+A: Yes you can. As long as it¿s 3,3V compatible and supported by Code Composer Studio it should work.
+
+
+Q: Can I run the board at full power for longer periods of time?
+
+A: Yes you can. In that case it is important to manage the board temperature. We recommend adding some temperature monitoring code (see examples)
+and dynamically limit the output current. Keep the board temperature below 90°C at all times to keep your TAPAS board healthy.
+
+
+Q: If I abruptly reduce the speed of my motor ¿ why is the JTAG-connection interrupted or other funny things happen?
+
+A: It is very likely that you are using a DC power supply and not a battery to power TAPAS. The breaking energy is fed back into the DC supply and
+causes an abrupt rise in DC voltage. Note that although TAPAS is designed to absorb some breaking energy, excessive DC voltage peaks may damage the
+board. To prevent this effect, limit the rate of change in motor velocity, use a battery instead of a DC power supply or invest in a current sink
+(breaking chopper).
+
+5. REFERENCES
+
+The following documents can be helpful in developing with TAPAS:
+
++ TAPAS Pinout: 
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAS-Pinout.pdf>	
++ TAPAS Schematics: 
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAS-Schematic.pdf>
++ This 13document(quick start guide):
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
++ InstaSPIN-FOC and InstaSPIN-MOTION user guide : 
+<www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
++ Instaspin projects and labs user¿s guide 
+-\> see motorware (<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf)
++ TMS320F28069MPZT overview and datasheet: 
+<http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
