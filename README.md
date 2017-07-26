@@ -209,23 +209,23 @@ for this platform. These modifications basically include inserting some addition
 and replacing existing modules, that are for example needed for the external IO of the board.	
 
 All the necessary changes to motorware can be done automatically by using our patch-file
-`_SDITAPASmotorwarePatch.patch_` included in the previously cloned repository.
+_`SDITAPASmotorwarePatch.patch`_ included in the previously cloned repository.
 
 If you use git in bash-mode, you have a possibility to run the patch command for changing
 your motorware-installation under windows.
-Copy the file `_SDITAPASmotorwarePatch.patch_` to the motorware installation folder
-(usually `_C:\ti\_`), start git in bash mode in this folder and execute the following commands:
+Copy the file _`SDITAPASmotorwarePatch.patch`_ to the motorware installation folder
+(usually _`C:\ti\`_), start git in bash mode in this folder and execute the following commands:
 
 ```
 dos2unix SDITAPASmotorwarePatch.patch
-patch ¿p0 ¿i SDITAPASmotorwarePatch.patch
+patch -p0 -i SDITAPASmotorwarePatch.patch
 ```
 
 If this command has finished execution successfully, you can start with the motorware-labs
 and the quick-start demo firmware. To edit the quick-start project, start Code Composer 
 Studio and choose a workspace location. Close the welcome-window and then select 
-¿Project-\>Import CCS Projects...¿ In the upcoming window choose the option "Select search-directory¿
-and click the ¿Browse¿ ¿ button. Navigate to the directory of your motorware installation,
+"Project-\>Import CCS Projects..." In the upcoming window choose the option "Select search-directory"
+and click the "Browse" - button. Navigate to the directory of your motorware installation,
 go to the folder
-`_<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\_`		
-and click the ¿OK¿ button.
+_`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\`_		
+and click the "OK" button.
