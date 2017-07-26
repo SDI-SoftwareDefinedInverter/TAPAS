@@ -10,6 +10,9 @@ Community drives inverter project
 + The resistor R\_MISO\_1 is populated in the development-version of TAPAS, but not in version 1.0 any more, here you can solder one by hand, if needed.
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more, solder in by hand, if you need one of them
 + The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
++ The dc-bus capacitor C10 for the 5V-voltage regulator U99 is a standard SMD-electrolytic capacitor in the development version and is upgraded to a 39µF polymer capacitor in TAPAS version 1.0 to make it possible to handle more current ripple on the dc-bus
++ in TAPAS version 1.0, a TVS-diode is added to the dc-bus input, to limit voltage overshoot, e.g. when braking a connected motor
++ the isolation ICs IC5, IC6 and IC7 have been changed from the development version to the TAPAS version 1.0 - this should have no influence on the behaviour
 
 ---
 
