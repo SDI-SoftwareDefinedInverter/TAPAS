@@ -78,9 +78,10 @@ fun with TAPAS as we had making it.
 					(Concept and  lead-design - TAPAS)
 
 
-__Created by :__ _
+__Created by :__
 
-SDI (Software Defined Inverter, \* in-house start-up for I/Os)_
+_SDI (Software Defined Inverter)_
+ \* in-house start-up for I/Os
 
 __Components sponsored by:__
 
