@@ -18,22 +18,22 @@ Document version 0.1
 
 __CAUTION__
 
-_The TAPAS community inverter board is not a toy!_ It is _intended for
-laboratory use only. Never use it in a productive environment!_	
+__The TAPAS community inverter board is not a toy!__ It is __intended for
+laboratory use only. Never use it in a productive environment!__
 (see section 6)
 
-The TAPAS board can get _very - hot never touch the board during	
-operation. Always use an appropriate case._
+The TAPAS board can get __very - hot never touch the board during	
+operation. Always use an appropriate case.__
 
-_If the TAPAS board is used in conjunction with mechanical,
-electromagnetic, acoustic, optical or other components,_ e.g. a motor
-drive, _significant forces can occur. Always ensure safety of the
+__If the TAPAS board is used in conjunction with mechanical,
+electromagnetic, acoustic, optical or other components,__ e.g. a motor
+drive, __significant forces can occur. Always ensure safety of the
 entire set-up! Prevent direct physical contact, always place set-up
-in an appropriate case, employ safe software techniques_ (e.g. torque
-limiting) and _limit the supply current._
+in an appropriate case, employ safe software techniques__ (e.g. torque
+limiting) and __limit the supply current.__
 
-The device is very _sensitive to electrostatic discharge - handle with	
-care! Never touch the board if the supply voltage is turned on!_
+The device is very __sensitive to electrostatic discharge - handle with	
+care! Never touch the board if the supply voltage is turned on!__
 
  
 ## Foreword and acknowledgements
