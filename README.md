@@ -230,8 +230,8 @@ go to the folder
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 and click the "OK" button.
 
-In the "Discovered projects¿ ¿ list below you will see all the projects lying in the selected directory.
-Here, you can choose for example the project _¿TAPAS\_quick\_start¿_, which represents the demo firmware used with the python ¿ 
+In the "Discovered projects" list below you will see all the projects lying in the selected directory.
+Here, you can choose for example the project _"TAPAS\_quick\_start"_, which represents the demo firmware used with the python - 
 script for the Raspberry PI.
 
 For all the other projects in the folders
@@ -239,7 +239,7 @@ _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boa
 and
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_motion\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 
-please have a look at the _¿InstaSPIN Projects and Labs User¿s Guide¿_ which comes together with the motorware-installation 
+please have a look at the _"InstaSPIN Projects and Labs User's Guide"_ which comes together with the motorware-installation 
 and is located at
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf`_ with a standard-motorware installation.
 There you can further find some information how to compile the firmware, start a debugging session, flash the DSP and get an
@@ -270,5 +270,6 @@ If you plan to do unlock even more features of TAPAS, we recommend installing th
 
 It delivers a lot of ready-to-use peripheral-drivers and examples for the C2000DSP series.
 
+Here comes the pinout for the TAPAS-board:
 ![TAPAS-pinout](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
