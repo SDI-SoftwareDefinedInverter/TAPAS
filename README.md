@@ -9,7 +9,30 @@ Community drives inverter project
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more, solder in by hand, if you need one of them
 + The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
 
+## TAPAS Quick-Start Guide
+Use your TAPAS board with Raspberry PI and TI InstaSPIN
+SIEMENS AG - July 2017 
+Document version 0.1
 
+CAUTION
+The TAPAS community inverter board is not a toy! It is intended for
+laboratory use only. Never use it in a productive environment!	
+(see section 6)
+
+The TAPAS board can get very hot ¿ never touch the board during	
+operation. Always use an appropriate case.
+
+If the TAPAS board is used in conjunction with mechanical,	
+electromagnetic, acoustic, optical or other components, e.g. a motor	
+drive, significant forces can occur. Always ensure safety of the	
+entire set-up! Prevent direct physical contact, always place set-up	
+in an appropriate case, employ safe software techniques (e.g. torque	
+limiting) and limit the supply current.
+
+The device is very sensitive to electrostatic discharge, handle with	
+care! Never touch the board if the supply voltage is turned on!
+
+ 
 ## Foreword and acknowledgements
 
 This board (TAPAS) is intended to train the next generation of power 
@@ -45,4 +68,7 @@ fun with TAPAS as we had making it.
 
 
 						Dominic Buchstaller
-					(Concept and  lead-design - TAPAS) 
+					(Concept and  lead-design - TAPAS)
+
+
+(is adding the logos here ok ? )
