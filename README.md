@@ -2,7 +2,7 @@
 
 ![PCB](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_all_small.JPG "PCB")
 
-Use your TAPAS board with Raspberry PI and/or Texas Instruments InstaSPIN
+Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 
 __!CAUTION!__
 
@@ -131,7 +131,7 @@ We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
 	
 ### Note: Difference between FIKAT (TAPAS pre-release version) and TAPAS (release version)
 There are some PCB differences between the pre-release version (code-name FIKAT - PCB with Siemens & SDI logo) and release version 1.0 (code-name TAPAS - PCB with Siemens and manufacturer logos)
-+ Pin 4 of the JTAG-Interface-Connector SV2 is not connected to GND on FIKAT. This has been fixed on TAPAS. You may have to solder Pin 4 of SV2 to GND by hand, to be able to flash the DSP.
++ The connector of the OLIMEX programmer does not fit directly to the JTAG-interface connector SV2 on the FIKAT-board, you have to solder an adapter here for being able to program the DSP on the board. The pinning of SV2 on FIKAT does match with the one of the programmers' connector. This has been fixed for TAPAS V1.0  
 + TAPAS has more PINs of the Raspberry-Pi socket (SV4) connected to GND. On FIKAT only pins 34 and 39 are connected to GND. Hence you cannot use a Nano Pi with FIKAT as the GND connection is missing.
 + The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 16 of SV4 on TAPAS.
 + The resistor R\_MISO\_1 is populated on FIKAT but not on TAPAS. 
