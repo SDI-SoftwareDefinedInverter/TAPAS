@@ -3,10 +3,6 @@
 ### TAPAS Quick-Start Guide
 Use your TAPAS board with Raspberry PI and TI InstaSPIN
 
-SIEMENS AG - July 2017 
-
-Document version 0.1
-
 __CAUTION__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
