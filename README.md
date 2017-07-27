@@ -26,7 +26,7 @@ care! Never touch the board if the supply voltage is turned on!__
 This board (TAPAS) is intended to train the next generation of power 
 electronics researchers and (application) engineers. It is designed as an 
 educational platform that addresses enthusiasts as well as experts at
-universities and the industry. 
+universities and in the industry. 
 
 TAPAS features a 48V, 3-phase GaN power stage with on-board filters. This
 design-choice allows for a very high switching frequency/bandwidth (500kHz 
