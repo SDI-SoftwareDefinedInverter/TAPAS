@@ -369,7 +369,7 @@ of the following measures:
 + Reorient or relocate the receiving antenna.
 + Increase the separation between the equipment and receiver.
 + Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
-+ Consult the dealer or an experienced radio/TV technician for help.
++ Consult the dealer or an experienced radio/TV technician for help.\\
 3.2 Canada
 3.2.1 For EVMs issued with an Industry Canada Certificate of Conformance to RSS-210 or RSS-247
 __Concerning EVMs Including Radio Transmitters:__
