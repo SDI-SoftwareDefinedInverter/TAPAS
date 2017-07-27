@@ -528,4 +528,5 @@ relating to these terms and conditions lies within courts located in the State o
 Texas.
 Notwithstanding the foregoing, any judgment may be enforced in any United States or foreign court, and Siemens may seek
 injunctive relief in any United States or foreign court.
+
 Mailing Address: Siemens Aktiengesellschaft, Werner-von-Siemens-Straße 1, 80333 Munich 
