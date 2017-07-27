@@ -126,7 +126,7 @@ There are some PCB differences between the pre-release version (code-name FIKAT 
 + The resistor R\_MISO\_1 is populated on FIKAT but not on TAPAS. 
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are populated on FIKAT but not on TAPAS.
 + The 0Ohm gate resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 on FIKAT have been changed to 2,2Ohm on TAPAS
-+ The DC-bus capacitor C10 for the 5V-voltage regulator U99 has been upgraded from a standard SMD-electrolytic type on FIKAT to a 39µF polymer type on TAPS. It can now handle a higher DC ripple current on the dc-bus
++ The DC-bus capacitor C10 for the 5V-voltage regulator U99 has been upgraded from a standard SMD-electrolytic type on FIKAT to a 39µF polymer type on TAPAS. It can now handle a higher DC ripple current on the dc-bus
 + We added a TVS-clamping-diode for DC over voltage protection on TAPAS. (Not available on FIKAT). This is to absorb some of the breaking energy if the user forgot to use a breaking chopper
 + The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on the behaviour
 
