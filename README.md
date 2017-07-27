@@ -62,13 +62,13 @@ Dominic Buchstaller (concept & lead-design - TAPAS)
 __Created by :__
 
 
-![SIEMENS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/siemens_logo_small.JPG "SIEMENS LOGO")
+![SIEMENS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/siemens_logo_small.png "SIEMENS LOGO")
 _SIEMENS SDI (Software Defined Inverter)_
 
 \* in-house start-up for I/Os
 
 __Components sponsored by:__
-![SPONSORS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/logobar_small.JPG "SPONSORS LOGO")
+![SPONSORS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/logobar_small.jpg "SPONSORS LOGO")
 
 _Texas Instruments_ <http://www.ti.com>
 
