@@ -66,6 +66,8 @@ _SIEMENS SDI (Software Defined Inverter)_
 \* in-house start-up for I/Os
 
 __Components sponsored by:__
+
+
 ![SPONSORS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/logobar_small.jpg "SPONSORS LOGO")
 
 
