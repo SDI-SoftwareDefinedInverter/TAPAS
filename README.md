@@ -369,10 +369,10 @@ of the following measures:
 + Reorient or relocate the receiving antenna.
 + Increase the separation between the equipment and receiver.
 + Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
-+ Consult the dealer or an experienced radio/TV technician for help.\n
-3.2 Canada
-3.2.1 For EVMs issued with an Industry Canada Certificate of Conformance to RSS-210 or RSS-247
-__Concerning EVMs Including Radio Transmitters:__
++ Consult the dealer or an experienced radio/TV technician for help.\
+	3.2 Canada
+	3.2.1 For EVMs issued with an Industry Canada Certificate of Conformance to RSS-210 or RSS-247
+	__Concerning EVMs Including Radio Transmitters:__
 This device complies with Industry Canada license-exempt RSSs. Operation is subject to the following two conditions:
 (1) this device may not cause interference, and (2) this device must accept any interference, including interference that may
 cause undesired operation of the device.
