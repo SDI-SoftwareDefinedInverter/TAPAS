@@ -35,7 +35,7 @@ TAPAS features a 48V, 3-phase GaN power stage with on-board filters. This
 design-choice allows for a high switching frequency (300kHz 
 and beyond) and bandwidth whilst producing a smooth output wave-form. In contrast, 
 commonly available IGBT or MOSFET converter boards typically have a 
-limited bandwidth and/or produce a square output wave-form.
+rather limited bandwidth and/or produce a square output wave-form.
 
 This unique feature of high bandwidth and smooth output makes TAPAS to 
 some degree universal, giving rise to educational applications in AC and DC 
