@@ -68,6 +68,7 @@ _SIEMENS SDI (Software Defined Inverter)_
 __Components sponsored by:__
 ![SPONSORS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/logobar_small.jpg "SPONSORS LOGO")
 
+
 _Texas Instruments_ <http://www.ti.com>
 
 _Efficient power conversion (EPC)_ <http://epc-co.com>
