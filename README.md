@@ -1,4 +1,4 @@
-# SDI TAPAS - Community drives inverter project - Quick-Start Guide
+## SDI TAPAS - Community drives inverter project - Quick-Start Guide
 Use your TAPAS board with Raspberry PI and TI InstaSPIN
 
 __CAUTION__
