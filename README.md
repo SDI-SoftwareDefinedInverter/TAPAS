@@ -236,7 +236,7 @@ Studio and choose a workspace location. Close the welcome-window and then select
 "Project-\>Import CCS Projects..." In the upcoming window choose the option "Select search-directory"
 and click the "Browse" - button. Navigate to the directory of your motorware installation,
 go to the folder
-_`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin  
+_`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin  \
 _foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\`_
 and click the "OK" button.
 
