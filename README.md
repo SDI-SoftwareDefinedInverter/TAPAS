@@ -4,7 +4,7 @@
 
 Use your TAPAS board with Raspberry PI and/or Texas Instruments InstaSPIN
 
-__CAUTION__
+__!CAUTION!__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
 laboratory use only. Never use it in a productive environment!__
@@ -61,14 +61,15 @@ Dominic Buchstaller (concept & lead-design - TAPAS)
 
 __Created by :__
 
-
-![SIEMENS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/siemens_logo_small.png "SIEMENS LOGO")
 _SIEMENS SDI (Software Defined Inverter)_
 
 \* in-house start-up for I/Os
 
 __Components sponsored by:__
+
+
 ![SPONSORS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/logobar_small.jpg "SPONSORS LOGO")
+
 
 _Texas Instruments_ <http://www.ti.com>
 
@@ -180,7 +181,7 @@ python3 TAPASstart.py
 
 ## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
 
-__CAUTION__	
+__!CAUTION!__	
 
 __The stock TAPAS firmware implements software features that ensure safe operation.
 Changing the stock TAPAS firmware may damage or destroy your TAPAS board, lead to
