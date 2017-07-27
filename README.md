@@ -51,7 +51,7 @@ or multi-axis servo control. Together with open-source code examples and
 extensive documentation we made TAPAS as accessible to the community as 
 possible.
 
-To help us make TAPAS also affordable, we would like to thank our friends 
+To help us make TAPAS affordable, we would like to thank our friends 
 and partners at Texas Instruments, Efficient Power Conversion (EPC), Würth 
 Elektronik and Allegro Micro who sponsored most of the active and passive 
 components on the board (see bill of materials). I hope you will have as much 
@@ -60,6 +60,8 @@ fun with TAPAS as we had making it.
 Dominic Buchstaller (concept & lead-design - TAPAS)
 
 __Created by :__
+
+![SIEMENS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/siemens_logo_vsmall.png "SIEMENS LOGO")
 
 _SIEMENS SDI (Software Defined Inverter)_
 
