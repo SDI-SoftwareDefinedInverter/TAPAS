@@ -1,4 +1,4 @@
-![PCB TOP](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_top.jpg "PCB top")
+![PCB TOP](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_top.JPG "PCB top")
 ## SDI TAPAS - Community Inverter - Quick-Start Guide
 Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 
