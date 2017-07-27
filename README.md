@@ -85,7 +85,7 @@ explore the endless possibilities that the platform provides.
 + Maximum DC / AC (per phase) current - 30A
 + Up to 300W continuous power - passively cooled (@>120kHz switching frequency)
 + Switching frequency up to 600 kHz at reduced load
-+ On-board output-filter for sinusoidal AC output
++ On-board output-filter smooth output voltage
 + Texas Instruments C2000 Piccolo (TMS320F28069M) DSP - InstaSPIN-enabled
 + CAN, GPIO, UART, SPI, 2 x QEP (encoder) interface onboard
 + Raspberry-Pi compatible
@@ -101,10 +101,9 @@ To get started with TAPAS you will need the following (additional) items.
 
 + We highly recommend placing TAPAS in __a case__. This will keep your TAPAS board safe.
 The 3D model for our very own case can be found and downloaded here:
-<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAShousing.zip>	
-The archive contains multiple files for e.g. the bottom part and the lid of the case.
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAShousing.zip>. 
 If you don't own a 3D printer, many local 3D printing services are available on-line.
-Print in ABS.				
+Print with temperature-stable materials like ABS (not PLA).				
 + __DC power supply__ with minimum 12V and >3A continuous current output.
 Alternatively, you may use any battery with the correct voltage and an appropriate
 fuse in the supply line	
