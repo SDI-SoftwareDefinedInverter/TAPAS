@@ -71,7 +71,7 @@ _WÜRTH ELEKTRONIK_ <http://www.we-online.com>
 
 _Allegro Microsystems_ <http://www.allegromicro.com>
 
-1. INTRODUCTION	
+## 1. INTRODUCTION	
 
 This quick-start-guide will lead you through the necessary steps to get TAPAS
 up and running with most commercially available DC-brushless motors.
@@ -130,7 +130,7 @@ There are some PCB differences between the pre-release version (code-name FIKAT 
 + We added a TVS-clamping-diode for DC over voltage protection on TAPAS. (Not available on FIKAT). This is to absorb some of the breaking energy if the user forgot to use a breaking chopper
 + The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on the behaviour
 
-2. GETTING STARTED WITH TAPAS AND RASPBERRY PI
+## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI
 
 + Create an SD-Card image for your Raspberry Pi Zero (W)
 (<https://www.raspberrypi.org/documentation/installation/installing-images/>)
@@ -168,7 +168,7 @@ python3 TAPASstart.py
 ```
 + Then follow the prompts on the monitor.
 
-3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
+## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
 
 __CAUTION__	
 
@@ -276,7 +276,7 @@ Here comes the pinout for the TAPAS-board:
 ![TAPAS-pinout](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
 
-4. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
+## 4. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
 
 Q: Where can I get a TAPAS board 
 
@@ -301,7 +301,7 @@ causes an abrupt rise in DC voltage. Note that although TAPAS is designed to abs
 board. To prevent this effect, limit the rate of change in motor velocity, use a battery instead of a DC power supply or invest in a current sink
 (breaking chopper).
 
-5. REFERENCES
+## 5. REFERENCES
 
 The following documents can be helpful in developing with TAPAS:
 
@@ -318,7 +318,7 @@ The following documents can be helpful in developing with TAPAS:
 + TMS320F28069MPZT overview and datasheet: 
 <http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
 
-6. STANDARD TERMS FOR EVALUATION MODULES
+## 6. STANDARD TERMS FOR EVALUATION MODULES
 
 Please refer to chapter 6. of the pdf-quick-start guide 
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
