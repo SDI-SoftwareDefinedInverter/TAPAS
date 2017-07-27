@@ -90,6 +90,9 @@ explore the endless possibilities that the platform provides.
 + CAN, GPIO, UART, SPI, 2 x QEP (encoder) interface onboard
 + Raspberry-Pi compatible
 
+### TAPAS pinout
+(https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
+
 ### Box contents
 + TAPAS board
 + This quick-start guide
@@ -183,7 +186,7 @@ It is free of charge and can be downloaded from here:
 <http://processors.wiki.ti.com/index.php/Download_CCS>
 
 Choose the correct setup-package for your OS and install it following the instructions in
-theinstallation-wizard.
+the installation-wizard.
 
 The drivers for the OLIMEX JTAG-Debug probe are included in the standard installation
 package. If you choose a JTAG Programmer from another vendor make sure that you installed
@@ -192,39 +195,25 @@ the correct drivers and that it is compatible with code composer studio.
 
 To be able to use the InstaSpin capabilities of the DSP, you require motorware version
 1\_01\_00\_16. Install git for your operating system and clone the repository in the same
-way, you did it for the Raspberry Pi calling
+way, you did it for the Raspberry Pi:
 
 ```
 git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
 ```
 
-Motorware is only available as a windows installer executable also included in the 
-previously cloned repository in the file _`motorware.zip`_.
 
-Alternatively you can download the archive with the windows installer via a browser here:
-<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>
 
-As the TAPAS board definition is not contained in motorware per default and TAPAS has some
-additional features, compared to most of the development-kits from TI, some modifications
-to your motorware installation have to be done before being able to do firmware-development
-for this platform. These modifications basically include inserting some additional drivers 
-and replacing existing modules, that are for example needed for the external IO of the board.	
+We included a copy of TI motorware ()in the cloned repository (_`motorware.zip`_). Alternatively you can download motorware from Motorware or here <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>.
 
-All the necessary changes to motorware can be done automatically by using our patch-file
-_`SDITAPASmotorwarePatch.patch`_ included in the previously cloned repository.
-
-If you use git in bash-mode, you have a possibility to run the patch command for changing
-your motorware-installation under windows.
-Copy the file _`SDITAPASmotorwarePatch.patch`_ to the motorware installation folder
-(usually _`C:\ti\`_), start git in bash mode in this folder and execute the following commands:
+As the TAPAS board definition is not part of the stock motorware package we have to make some modifications to it. All the necessary changes are contained in the patch-file _`SDITAPASmotorwarePatch.patch`_. Now copy _`SDITAPASmotorwarePatch.patch`_ to the motorware installation folder (usually _`C:\ti\`_) and start git in bash mode (also in the motorware installation folder). Then execute the following commands:
 
 ```
 dos2unix SDITAPASmotorwarePatch.patch
 patch -p0 -i SDITAPASmotorwarePatch.patch
 ```
 
-If this command has finished execution successfully, you can start with the motorware-labs
-and the quick-start demo firmware. To edit the quick-start project, start Code Composer 
+This completes the installation of motorware und you can start playing with the motorware-labs
+and the quick-start demo firmware. To add the quick-start project, start Code Composer 
 Studio and choose a workspace location. Close the welcome-window and then select 
 "Project-\>Import CCS Projects..." In the upcoming window choose the option "Select search-directory"
 and click the "Browse" - button. Navigate to the directory of your motorware installation,
@@ -232,48 +221,34 @@ go to the folder
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 and click the "OK" button.
 
-In the "Discovered projects" - list below you will see all the projects lying in the selected directory.
-Here, you can choose for example the project _"TAPAS\_quick\_start"_, which represents the demo firmware used with the python - 
-script for the Raspberry PI.
+In the "Discovered projects" - list below you will see all the projects in the selected directory.
+Here you can choose, for example, the _"TAPAS\_quick\_start"_ project which represents the stock demo firmware to be used with the python - script for Raspberry PI.
 
 For all the other projects in the folders
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_foc\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 and
 _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\sw\solutions\instaspin\_motion\boards\TAPAS\_V1\_0\f28x\f2806xF\projects\ccs5\ `_
 
-please have a look at the _"InstaSPIN Projects and Labs User's Guide"_ which comes together with the motorware-installation 
-and is located at
-_`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf`_ with a standard-motorware installation.
-There you can further find some information how to compile the firmware, start a debugging session, flash the DSP and get an
-impression, what all the program components actually do. Please keep in mind, that all the labs for driving two motors independent
-with one DSP are not possible with TAPAS, as there is only one 3-phase power stage.
+please consider the _"InstaSPIN Projects and Labs User's Guide"_ which comes with the motorware-installation 
+and is located in _`<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf`_ of the motorware installation.
+There you can find further information on how to compile the firmware, start a debugging session, flash the DSP and get an
+impression, what all the program components actually do. Please keep in mind that all labs are designed to drive two motors independently - this is not possible with TAPAS as there is only one 3-phase power stage.
 
 To be able to run our TAPAS demo-webapp you also require the InstaSPIN-UNIVERSALGUI from Texas Instruments which you can get here:
 
 <http://www.ti.com/tool/INSTASPINUNIVERSALGUI>
 
-You have now completed the installation of the TAPAS development environment. We have created a TAPAS-webapp including not only	
-external IO for you to check if everything is working ok. Download it here:	
+You have now completed the installation of the TAPAS development environment. We have also created a TAPAS-webapp to test all external I/O hardware. You can download it from:	
 
 ```
 https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASwebapp.zip
 ```
-unzip it and place it in the folder:
+Unzip the file place it in:
 
 ```
 <drive>:\ti\guicomposer\webapps\
 ```
 
-__And now? How do we get it running?__
-
-If you plan to do unlock even more features of TAPAS, we recommend installing the Texas Instruments controlSUITE which is available here:
-
-<http://www.ti.com/tool/controlsuite>
-
-It delivers a lot of ready-to-use peripheral-drivers and examples for the C2000DSP series.
-
-Here comes the pinout for the TAPAS-board:
-![TAPAS-pinout](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
 
 ## 4. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
