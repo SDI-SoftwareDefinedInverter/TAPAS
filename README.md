@@ -91,7 +91,7 @@ explore the endless possibilities that the platform provides.
 + Raspberry-Pi compatible
 
 ### TAPAS pinout
-(https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
+[TAPAS PINOUT](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
 ### Box contents
 + TAPAS board
