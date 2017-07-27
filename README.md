@@ -54,7 +54,7 @@ Elektronik and Allegro Micro who sponsored most of the active and passive
 components on the board (see bill of materials). I hope you will have as much 
 fun with TAPAS as we had making it.
 
-Dominic Buchstaller (Concept, lead-design, community - TAPAS)
+Dominic Buchstaller (concept, lead-design, community - TAPAS)
 
 __Created by :__
 
