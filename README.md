@@ -211,7 +211,7 @@ git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
 
 
 
-We included a copy of TI motorware ()in the cloned repository (_`motorware.zip`_). Alternatively you can download motorware from Motorware or here <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>.
+We included a copy of TI motorware in the cloned repository (_`motorware.zip`_). Alternatively you can download motorware from Motorware or here <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/motorware.zip>.
 
 As the TAPAS board definition is not part of the stock motorware package we have to make some modifications to it. All the necessary changes are contained in the patch-file _`SDITAPASmotorwarePatch.patch`_. Now copy _`SDITAPASmotorwarePatch.patch`_ to the motorware installation folder (usually _`C:\ti\`_) and start git in bash mode (also in the motorware installation folder). Then execute the following commands:
 
@@ -303,6 +303,14 @@ The following documents can be helpful in developing with TAPAS:
 
 ## 6. STANDARD TERMS FOR EVALUATION MODULES
 
-Please refer to chapter 6. of the pdf-quick-start guide 
-<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
-to see the STANDARD TERMS FOR EVALUATION MODULES.
+1.\ Delivery: Siemens delivers Siemens evaluation boards, kits, or modules, including any accompanying demonstration software,
+components, and/or documentation which may be provided together or separately (collectively, an “EVM” or “EVMs”) to the User
+(“User”) in accordance with the terms set forth herein. User's acceptance of the EVM is expressly subject to the following terms.
+  1.1 EVMs are intended solely for product or software developers for use in a research and development setting to facilitate feasibility
+evaluation, experimentation, or scientific analysis of Siemens semiconductors products. EVMs have no direct function and are not
+finished products. EVMs shall not be directly or indirectly assembled as a part or subassembly in any finished product. For
+clarification, any software or software tools provided with the EVM (“Software”) shall not be subject to the terms and conditions
+set forth herein but rather shall be subject to the applicable terms that accompany such Software
+  1.2 EVMs are not intended for consumer or household use. EVMs may not be sold, sublicensed, leased, rented, loaned, assigned,
+or otherwise distributed for commercial purposes by Users, in whole or in part, or used in any finished product or production
+system.
