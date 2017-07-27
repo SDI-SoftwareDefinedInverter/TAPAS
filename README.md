@@ -39,7 +39,7 @@ rather limited bandwidth and/or produce a square output wave-form.
 
 This unique feature of high bandwidth and smooth output makes TAPAS to 
 some degree universal, giving rise to educational applications in AC and DC 
-drives, DC/DC power conversion, audio, robotics, magnetic field control, DC-
+drives, DC/DC power conversion, audio, robotics, magnetic field control, 
 battery charging, etc. Note that universality is achieved with a single, fixed 
 hardware platform where the overall functionality is defined via software 
 (changes) only – the reason why we coined the term “Software Defined 
