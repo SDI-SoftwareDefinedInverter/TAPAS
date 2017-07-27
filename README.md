@@ -1,18 +1,16 @@
-# SDI TAPAS
-Community drives inverter project
-
+# SDI TAPAS - Community drives inverter project
 ---
 
-## Differences between the TAPAS developer-version and TAPAS version 1.0
-+ Pin 4 of the JTAG-Interface-Connector SV2 is not connected to GND in the developer version, this has been fixed to version 1.0. You have to solder Pin 4 of SV2 to GND by hand, to be able to flash the DSP.
-+ version 1.0 has more PINs of the Raspberry-Pi socket (SV4) connected to GND, in the developer-version, only the Pins 34 and 39 were connected to GND. Therefore, you cannot use a Nano Pi on this socket, as the GND connection to TAPAS is missing then.
-+ The SPI-Chip Select on GPIO53 of the DSP that is connected to SV4 via the address DIP-switch(2) is connected to Pin 26 of SV4 in the development-version and is now moved to Pin 16 in TAPAS V1.0
-+ The resistor R\_MISO\_1 is populated in the development-version of TAPAS, but not in version 1.0 any more, here you can solder one by hand, if needed.
-+ The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are all populated in the development-version, but not in version 1.0 any more, solder in by hand, if you need one of them
-+ The gate-driving resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 are implemented as 0 Ohm in the development version and have now been changed to 2,2Ohm in TAPAS vesion 1.0
-+ The dc-bus capacitor C10 for the 5V-voltage regulator U99 is a standard SMD-electrolytic capacitor in the development version and is upgraded to a 39µF polymer capacitor in TAPAS version 1.0 to make it possible to handle more current ripple on the dc-bus
-+ in TAPAS version 1.0, a TVS-diode is added to the dc-bus input, to limit voltage overshoot, e.g. when braking a connected motor
-+ the isolation ICs IC5, IC6 and IC7 have been changed from the development version to the TAPAS version 1.0 - this should have no influence on the behaviour
+## Note: PCB differences between the pre-release version (code-name FIKAT - PCB with Siemens & SDI logo) and version 1.0 (code-name TAPAS - PCB with Siemens and manufacturer logos)
++ Pin 4 of the JTAG-Interface-Connector SV2 is not connected to GND on FIKAT. This has been fixed on TAPAS. You may have to solder Pin 4 of SV2 to GND by hand, to be able to flash the DSP.
++ TAPAS has more PINs of the Raspberry-Pi socket (SV4) connected to GND. On FIKAT only pins 34 and 39 are connected to GND. Hence you cannot use a Nano Pi with FIKAT as the GND connection is missing.
++ The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 16 of SV4 on TAPAS.
++ The resistor R\_MISO\_1 is populated on FIKAT but not on TAPAS. 
++ The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are populated on FIKAT but not on TAPAS.
++ The 0Ohm gate resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 on FIKAT have been changed to 2,2Ohm on TAPAS
++ The DC-bus capacitor C10 for the 5V-voltage regulator U99 has been upgraded from a standard SMD-electrolytic type on FIKAT to a 39¬µF polymer type on TAPS. It can now handle a higher DC ripple current on the dc-bus
++ We added a TVS-clamping-diode for DC over voltage protection on TAPAS. (Not available on FIKAT). This is to absorb some of the breaking energy if the user forgot to use a breaking chopper
++ The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on the behaviour
 
 ---
 
@@ -61,8 +59,8 @@ some degree universal, giving rise to educational applications in AC and DC
 drives, DC/DC power conversion, audio, robotics, magnetic field control, DC-
 battery charging, etc. Note that universality is achieved with a single, fixed 
 hardware platform where the overall functionality is defined via software 
-(changes) only ñ the reason why we coined the term ìSoftware Defined 
-Inverterî (SDI). 
+(changes) only ‚Äì the reason why we coined the term ‚ÄúSoftware Defined 
+Inverter‚Äù (SDI). 
 
 TAPAS is Raspberry PI compatible and multiple boards can be used in 
 collaboration, giving rise to many-phase applications such as quadrocopters 
@@ -71,7 +69,7 @@ extensive documentation we made TAPAS as accessible to the community as
 possible.
 
 To help us make TAPAS also affordable, we would like to thank our friends 
-and partners at Texas Instruments, Efficient Power Conversion (EPC), W¸rth 
+and partners at Texas Instruments, Efficient Power Conversion (EPC), W√ºrth 
 Elektronik and Allegro Micro who sponsored most of the active and passive 
 components on the board (see bill of materials). I hope you will have as much 
 fun with TAPAS as we had making it.
@@ -95,7 +93,7 @@ _Texas Instruments_ <http://www.ti.com>
 
 _Efficient power conversion (EPC)_ <http://epc-co.com>
 
-_W‹RTH ELEKTRONIK_ <http://www.we-online.com>
+_W√úRTH ELEKTRONIK_ <http://www.we-online.com>
 
 _Allegro Microsystems_ <http://www.allegromicro.com>
 
@@ -308,7 +306,7 @@ A: Yes you can. As long as it's 3,3V compatible and supported by Code Composer S
 Q: Can I run the board at full power for longer periods of time?
 
 A: Yes you can. In that case it is important to manage the board temperature. We recommend adding some temperature monitoring code (see examples)
-and dynamically limit the output current. Keep the board temperature below 90∞C at all times to keep your TAPAS board healthy.
+and dynamically limit the output current. Keep the board temperature below 90¬∞C at all times to keep your TAPAS board healthy.
 
 
 Q: If I abruptly reduce the speed of my motor why is the JTAG-connection interrupted or other funny things happen?
