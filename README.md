@@ -14,7 +14,7 @@ __The TAPAS community inverter board is not a toy!__ It is __intended for
 laboratory use only. Never use it in a productive environment!__
 (see section 6)
 
-The TAPAS board can get __very - hot never touch the board during	
+The TAPAS board can get __very hot, never touch the board during	
 operation. Always use an appropriate case.__
 
 __If the TAPAS board is used in conjunction with mechanical,
@@ -61,17 +61,11 @@ Elektronik and Allegro Micro who sponsored most of the active and passive
 components on the board (see bill of materials). I hope you will have as much 
 fun with TAPAS as we had making it.
 
-
-						Dominic Buchstaller
-					(Concept and  lead-design - TAPAS)
-
-<http://www.siemens.com>
-
-<http://sdi.fau.de>
+Dominic Buchstaller (Concept, lead-design, community - TAPAS)
 
 __Created by :__
 
-_SDI (Software Defined Inverter)_
+_SIEMENS SDI (Software Defined Inverter)_
 \* in-house start-up for I/Os
 
 __Components sponsored by:__
