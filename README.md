@@ -63,9 +63,7 @@ __Created by :__
 
 ![SIEMENS LOGO](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/siemens_logo_vsmall.png "SIEMENS LOGO")
 
-_SIEMENS SDI (Software Defined Inverter)_
-
-\* in-house start-up for I/Os
+_SIEMENS SDI (Software Defined Inverter)_ \* in-house start-up for I/Os
 
 __Components sponsored by:__
 
