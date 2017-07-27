@@ -104,19 +104,19 @@ The 3D model for our very own case can be found and downloaded here:
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAShousing.zip>. 
 If you don't own a 3D printer, many local 3D printing services are available on-line.
 Print with temperature-stable materials like ABS (not PLA).				
-+ __DC power supply__ with minimum 12V and >3A continuous current output.
++ __DC power supply__ with a minimum of 12V and >3A continuous current output.
 Alternatively, you may use any battery with the correct voltage and an appropriate
 fuse in the supply line	
 + A __DC brushless motor__	
-+ If you want to use TAPAS with __Raspberry PI__ we recommend an Raspberry PI Zero (W)
 + If you want to start programming with TAPAS you will need a __JTAG programmer__.
 We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
-+ If you want to use the TAPAS platform with a Raspberry Pi, you may also want to
-fasten the two PCBs together. Then you will need
++ If you want to use TAPAS with __Raspberry PI__ we recommend an Raspberry PI Zero (W)
++ If you want to use TAPAS with __Raspberry PI__ we also recommend the following parts for mechanical stability: 
 	+ 4 screws M2,5 x 6mm (plastic)	
 	+ 4 screw nuts M2,5 (plastic)
 	+ 4 spacers M2,5 x 10mm with one male and one female thread (plastic)
 	+ 12 washers M2,5 (plastic)
+
 	
 ## Note: Difference between FIKAT (pre-release version) and TAPAS (release version)
 There are some PCB differences between the pre-release version (code-name FIKAT - PCB with Siemens & SDI logo) and release version 1.0 (code-name TAPAS - PCB with Siemens and manufacturer logos)
