@@ -296,8 +296,7 @@ The following documents can be helpful in developing with TAPAS:
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
 + InstaSPIN-FOC and InstaSPIN-MOTION user guide : 
 <http://www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
-+ Instaspin projects and labs user's guide 
--\> see motorware ( <drive> :\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf)
++ Instaspin projects and labs user's guide, see motorware (<drive>:\ti\motorware\motorware\_1\_01\_00\_16\docs\labs\instaspin\_labs.pdf)
 + TMS320F28069MPZT overview and datasheet: 
 <http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
 
