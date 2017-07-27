@@ -2,7 +2,7 @@
 
 ![PCB](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_all_small.JPG "PCB")
 
-Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
+Use your TAPAS board with Raspberry PI and/or Texas Instruments InstaSPIN
 
 __CAUTION__
 
@@ -120,7 +120,7 @@ fuse in the supply line
 + A __DC brushless motor__	
 + If you want to start programming with TAPAS you will need a __JTAG programmer__.
 We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
-+ If you want to use TAPAS with __Raspberry PI__ we recommend an Raspberry PI Zero (W)
++ If you want to use TAPAS with __Raspberry PI__ we recommend a Raspberry PI Zero (W)
 + If you want to use TAPAS with __Raspberry PI__ we also recommend the following parts for mechanical stability: 
 	+ 4 screws M2,5 x 6mm (plastic)	
 	+ 4 screw nuts M2,5 (plastic)
