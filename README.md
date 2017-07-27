@@ -1,6 +1,6 @@
 ## SDI TAPAS - Community Inverter - Quick-Start Guide
 
-![PCB TOP](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_all_small.JPG "PCB top")
+![PCB](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/images/FIKAT_all_small.JPG "PCB")
 
 Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 
