@@ -4,7 +4,7 @@
 
 Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 
-__CAUTION__
+__!CAUTION!__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
 laboratory use only. Never use it in a productive environment!__
@@ -181,7 +181,7 @@ python3 TAPASstart.py
 
 ## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
 
-__CAUTION__	
+__!CAUTION!__	
 
 __The stock TAPAS firmware implements software features that ensure safe operation.
 Changing the stock TAPAS firmware may damage or destroy your TAPAS board, lead to
