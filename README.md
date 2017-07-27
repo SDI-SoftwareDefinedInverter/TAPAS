@@ -307,38 +307,29 @@ The following documents can be helpful in developing with TAPAS:
 components, and/or documentation which may be provided together or separately (collectively, an “EVM” or “EVMs”) to the User
 (“User”) in accordance with the terms set forth herein. User's acceptance of the EVM is expressly subject to the following terms.
 
-
 1.1 EVMs are intended solely for product or software developers for use in a research and development setting to facilitate feasibility
 evaluation, experimentation, or scientific analysis of Siemens semiconductors products. EVMs have no direct function and are not
 finished products. EVMs shall not be directly or indirectly assembled as a part or subassembly in any finished product. For
 clarification, any software or software tools provided with the EVM (“Software”) shall not be subject to the terms and conditions
 set forth herein but rather shall be subject to the applicable terms that accompany such Software
 
-
 1.2 EVMs are not intended for consumer or household use. EVMs may not be sold, sublicensed, leased, rented, loaned, assigned,
 or otherwise distributed for commercial purposes by Users, in whole or in part, or used in any finished product or production
 system.
 
-
 2 Limited Warranty and Related Remedies/Disclaimers:
-
 
 2.1 These terms do not apply to Software. The warranty, if any, for Software is covered in the applicable Software License
 Agreement.Siemens
-
 
 2.2 Siemens warrants that the Siemens EVM will conform to Siemens' published specifications for ninety (90) days after the date
 Siemens delivers such EVM
 to User. Notwithstanding the foregoing, Siemens shall not be liable for a nonconforming EVM if (a) the nonconformity was caused by
 neglect, misuse or mistreatment by an entity other than Siemens, including improper installation or testing, or for any EVMs that
-have
-been altered or modified in any way by an entity other than Siemens, (b) the nonconformity resulted from User's design,
-specifications
-or instructions for such EVMs or improper system design, or (c) User has not paid on time. Testing and other quality control
-techniques are used to the extent Siemens deems necessary. Siemens does not test all parameters of each EVM.
+have been altered or modified in any way by an entity other than Siemens, (b) the nonconformity resulted from User's design,
+specifications or instructions for such EVMs or improper system design, or (c) User has not paid on time. Testing and other quality control techniques are used to the extent Siemens deems necessary. Siemens does not test all parameters of each EVM.
 User's claims against Siemens under this Section 2 are void if User fails to notify Siemens of any apparent defects in the EVMs
 within ten (10) business days after delivery, or of any hidden defects with ten (10) business days after the defect has been detected.
-
 
 2.3 Siemens's sole liability shall be at its option to repair or replace EVMs that fail to conform to the warranty set forth above, or
 credit User's account for such EVM. Siemens's liability under this warranty shall be limited to EVMs that are returned during the
@@ -347,15 +338,11 @@ Siemens elects to repair or replace such EVM, Siemens shall have a reasonable ti
 Repaired EVMs shall be warranted for the remainder of the original warranty period. Replaced EVMs shall be warranted for a new
 full ninety (90) day warranty period.
 
-
 3 Regulatory Notices:
-
 
 3.1 United States
 
-
 3.1.1 Notice applicable to EVMs not FCC-Approved:
-
 
 __FCC NOTICE:__ This kit is designed to allow product developers to evaluate electronic components, circuitry, or software
 associated with the kit to determine whether to incorporate such items in a finished product and software developers to write
@@ -365,12 +352,9 @@ that this product not cause harmful interference to licensed radio stations and 
 Unless the assembled kit is designed to operate under part 15, part 18 or part 95 of this chapter, the operator of the kit must
 operate under the authority of an FCC license holder or must secure an experimental authorization under part 5 of this chapter.
 
-
 3.1.2 For EVMs annotated as FCC – FEDERAL COMMUNICATIONS COMMISSION Part 15 Compliant:
 
-
 __CAUTION__ 
-
 
 This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not
 cause harmful interference, and (2) this device must accept any interference received, including interference that may cause
@@ -378,9 +362,7 @@ undesired operation.
 Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to
 operate the equipment.
 
-
 __FCC Interference Statement for Class A EVM devices__
-
 
 NOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to part 15 of
 the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is
@@ -389,9 +371,7 @@ installed and used in accordance with the instruction manual, may cause harmful 
 Operation of this equipment in a residential area is likely to cause harmful interference in which case the user will be required to
 correct the interference at his own expense.
 
-
 __FCC Interference Statement for Class B EVM devices__
-
 
 NOTE: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of
 the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential
@@ -409,25 +389,19 @@ of the following measures:
 
 3.2.1 For EVMs issued with an Industry Canada Certificate of Conformance to RSS-210 or RSS-247
 
-
 __Concerning EVMs Including Radio Transmitters:__
-
 
 This device complies with Industry Canada license-exempt RSSs. Operation is subject to the following two conditions:
 (1) this device may not cause interference, and (2) this device must accept any interference, including interference that may
 cause undesired operation of the device.
 
-
 __Concernant les EVMs avec appareils radio:__
-
 
 Le présent appareil est conforme aux CNR d'Industrie Canada applicables aux appareils radio exempts de licence. L'exploitation
 est autorisée aux deux conditions suivantes: (1) l'appareil ne doit pas produire de brouillage, et (2) l'utilisateur de l'appareil doit
 accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.
 
-
 __Concerning EVMs Including Detachable Antennas:__
-
 
 Under Industry Canada regulations, this radio transmitter may only operate using an antenna of a type and maximum (or lesser)
 gain approved for the transmitter by Industry Canada. To reduce potential radio interference to other users, the antenna type
@@ -437,9 +411,7 @@ listed in the user guide with the maximum permissible gain and required antenna 
 Antenna types not included in this list, having a gain greater than the maximum gain indicated for that type, are strictly prohibited
 for use with this device.
 
-
 __Concernant les EVMs avec antennes détachables__
-
 
 Conformément à la réglementation d'Industrie Canada, le présent émetteur radio peut fonctionner avec une antenne d'un type et
 d'un gain maximal (ou inférieur) approuvé pour l'émetteur par Industrie Canada. Dans le but de réduire les risques de brouillage
@@ -450,41 +422,27 @@ manuel d’usage et ayant un gain admissible maximal et l'impédance requise pou
 non inclus dans cette liste, ou dont le gain est supérieur au gain maximal indiqué, sont strictement interdits pour l'exploitation de
 l'émetteur
 
-
 3.3 Japan – does not apply
 
-
 3.4 European Union
-
 
 3.4.1 For EVMs subject to EU Directive 2014/30/EU (Electromagnetic Compatibility Directive):
 This is a class A product intended for use in environments other than domestic environments that are connected to a
 low-voltage power-supply network that supplies buildings used for domestic purposes. In a domestic environment this
 product may cause radio interference in which case the user may be required to take adequate measures.
 
-
 4 EVM Use Restrictions and Warnings:
 
-
 4.1 EVMS ARE NOT FOR USE IN FUNCTIONAL SAFETY AND/OR SAFETY CRITICAL EVALUATIONS, INCLUDING BUT NOT
-
-
 LIMITED TO EVALUATIONS OF LIFE SUPPORT APPLICATIONS.
 
-
 4.2 User must read and apply the user guide and other available documentation provided by Siemens regarding the EVM prior to
-
-
 handling or using the EVM, including without limitation any warning or restriction notices. The notices contain important safety
 information related to, for example, temperatures and voltages.
 
-
 4.3 Safety-Related Warnings and Restrictions:
 
-
 4.3.1 User shall operate the EVM within Siemens’s recommended specifications and environmental considerations stated in the
-
-
 user guide, other available documentation provided by Siemens, and any other applicable requirements and employ reasonable and
 customary safeguards. Exceeding the specified performance ratings and specifications (including but not limited to input
 and output voltage, current, power, and environmental ranges) for the EVM may cause personal injury or death, or
@@ -499,10 +457,7 @@ switching transistors, pass transistors, current sense resistors, and heat sinks
 information in the associated documentation. When working with the EVM, please be aware that the EVM may become
 very warm.
 
-
 4.3.2 EVMs are intended solely for use by technically qualified, professional electronics experts who are familiar with the
-
-
 dangers and application risks associated with handling electrical mechanical components, systems, and subsystems.
 User assumes all responsibility and liability for proper and safe handling and use of the EVM by User or its employees,
 affiliates, contractors or designees. User assumes all responsibility and liability to ensure that any interfaces (electronic
@@ -511,63 +466,41 @@ limit accessible leakage currents to minimize the risk of electrical shock hazar
 liability for any improper or unsafe handling or use of the EVM by User or its employees, affiliates, contractors or
 designees.
 
-
 4.4 User assumes all responsibility and liability to determine whether the EVM is subject to any applicable international, federal,
-
-
 state, or local laws and regulations related to User’s handling and use of the EVM and, if applicable, User assumes all
 responsibility and liability for compliance in all respects with such laws and regulations. User assumes all responsibility and
 liability for proper disposal and recycling of the EVM consistent with all applicable international, federal, state, and local
 requirements.
 
-
 5.Accuracy of Information: To the extent Siemens provides information on the availability and function of EVMs, Siemens attempts
-
-
-to be as accurate
-as possible. However, Siemens does not warrant the accuracy of EVM descriptions, EVM availability or other information on its
-websites as
-accurate, complete, reliable, current, or error-free.
-
+to be as accurate as possible. However, Siemens does not warrant the accuracy of EVM descriptions, EVM availability or other 
+information on its websites as accurate, complete, reliable, current, or error-free.
 
 6.Disclaimers:
 
-
 6.1 EXCEPT AS SET FORTH ABOVE, EVMS AND ANY MATERIALS PROVIDED WITH THE EVM (INCLUDING, BUT NOT
-
-
 LIMITED TO, REFERENCE DESIGNS AND THE DESIGN OF THE EVM ITSELF) ARE PROVIDED "AS IS" AND "WITH ALL
 FAULTS." Siemens DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, REGARDING SUCH ITEMS, INCLUDING
 BUT NOT LIMITED TO ANY EPIDEMIC FAILURE WARRANTY OR IMPLIED WARRANTIES OF MERCHANTABILITY OR
 FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF ANY THIRD PARTY PATENTS, COPYRIGHTS,
 TRADE SECRETS OR OTHER INTELLECTUAL PROPERTY RIGHTS.
 
-
 6.2 EXCEPT FOR THE LIMITED RIGHT TO USE THE EVM SET FORTH HEREIN, NOTHING IN THESE TERMS SHALL BE
-
-
 CONSTRUED AS GRANTING OR CONFERRING ANY RIGHTS BY LICENSE, PATENT, OR ANY OTHER INDUSTRIAL OR
 INTELLECTUAL PROPERTY RIGHT OF Siemens, ITS SUPPLIERS/LICENSORS OR ANY OTHER THIRD PARTY, TO USE THE
 EVM IN ANY FINISHED END-USER OR READY-TO-USE FINAL PRODUCT, OR FOR ANY INVENTION, DISCOVERY OR
 IMPROVEMENT, REGARDLESS OF WHEN MADE, CONCEIVED OR ACQUIRED.
 
-
 7.USER'S INDEMNITY OBLIGATIONS AND REPRESENTATIONS. USER WILL DEFEND, INDEMNIFY AND HOLD Siemens, ITS
-
-
 LICENSORS AND THEIR REPRESENTATIVES HARMLESS FROM AND AGAINST ANY AND ALL CLAIMS, DAMAGES,
 LOSSES, EXPENSES, COSTS AND LIABILITIES (COLLECTIVELY, "CLAIMS") ARISING OUT OF OR IN CONNECTION WITH
 ANY HANDLING OR USE OF THE EVM THAT IS NOT IN ACCORDANCE WITH THESE TERMS. THIS OBLIGATION SHALL
 APPLY WHETHER CLAIMS ARISE UNDER STATUTE, REGULATION, OR THE LAW OF TORT, CONTRACT OR ANY OTHER
 LEGAL THEORY, AND EVEN IF THE EVM FAILS TO PERFORM AS DESCRIBED OR EXPECTED.
 
-
 8.Limitations on Damages and Liability:
 
-
 8.1 General Limitations. IN NO EVENT SHALL Siemens BE LIABLE FOR ANY SPECIAL, COLLATERAL, INDIRECT, PUNITIVE,
-
-
 INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES IN CONNECTION WITH OR ARISING OUT OF THESE
 TERMS OR THE USE OF THE EVMS, REGARDLESS OF WHETHER Siemens HAS BEEN ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGES. EXCLUDED DAMAGES INCLUDE, BUT ARE NOT LIMITED TO, COST OF REMOVAL OR
@@ -577,28 +510,19 @@ USE, LOSS OF DATA, OR BUSINESS INTERRUPTION. NO CLAIM, SUIT OR ACTION SHALL BE B
 MORE THAN TWELVE (12) MONTHS AFTER THE EVENT THAT GAVE RISE TO THE CAUSE OF ACTION HAS
 OCCURRED.
 
-
 8.2 Specific Limitations. IN NO EVENT SHALL Siemens' AGGREGATE LIABILITY FROM ANY USE OF AN EVM PROVIDED
-
-
 HEREUNDER, INCLUDING FROM ANY WARRANTY, INDEMITY OR OTHER OBLIGATION ARISING OUT OF OR IN
 CONNECTION WITH THESE TERMS, , EXCEED THE TOTAL AMOUNT PAID TO Siemens BY USER FOR THE PARTICULAR
 EVM(S) AT ISSUE DURING THE PRIOR TWELVE (12) MONTHS WITH RESPECT TO WHICH LOSSES OR DAMAGES ARE
 CLAIMED. THE EXISTENCE OF MORE THAN ONE CLAIM SHALL NOT ENLARGE OR EXTEND THIS LIMIT.
 
-
 9.Return Policy. Except as otherwise provided, Siemens does not offer any refunds, returns, or exchanges. Furthermore, no return
-
-
 of EVM(s) will be accepted if the package has been opened and no return of the EVM(s) will be accepted if they are damaged or
 otherwise not in a resalable condition. If User feels it has been incorrectly charged for the EVM(s) it ordered or that delivery violates
 the applicable order, User should contact Siemens. All refunds will be made in full within thirty (30) working days from the return of
 the components(s), excluding any postage or packaging costs.
 
-
 10.Governing Law: These terms and conditions shall be governed by and interpreted in accordance with the laws of the State of
-
-
 Texas, without reference to conflict-of-laws principles. User agrees that non-exclusive jurisdiction for any dispute arising out of or
 relating to these terms and conditions lies within courts located in the State of Texas and consents to venue in Dallas County,
 Texas.
