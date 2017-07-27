@@ -131,15 +131,25 @@ We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
 	
 ### Note: Difference between FIKAT (TAPAS pre-release version) and TAPAS (release version)
 There are some PCB differences between the pre-release version (code-name FIKAT - PCB with Siemens & SDI logo) and release version 1.0 (code-name TAPAS - PCB with Siemens and manufacturer logos)
-+ The connector of the OLIMEX programmer does not fit directly to the JTAG-interface connector SV2 on the FIKAT-board, you have to solder an adapter here for being able to program the DSP on the board. The pinning of SV2 on FIKAT does match with the one of the programmers' connector. This has been fixed for TAPAS V1.0  
-+ TAPAS has more PINs of the Raspberry-Pi socket (SV4) connected to GND. On FIKAT only pins 34 and 39 are connected to GND. Hence you cannot use a Nano Pi with FIKAT as the GND connection is missing.
-+ The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 16 of SV4 on TAPAS.
+
++ The connector of the OLIMEX programmer does not fit directly to the JTAG-interface connector SV2 on the FIKAT-board, you have
+to solder an adapter here for being able to program the DSP on the board. The pinning of SV2 on FIKAT does match with the one of 
+the programmers' connector. This has been fixed for TAPAS V1.0  
++ TAPAS has more PINs of the Raspberry-Pi socket (SV4) connected to GND. On FIKAT only pins 34 and 39 are connected to GND. Hence 
+you cannot use a Nano Pi with FIKAT as the GND connection is missing.
++ The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 
+16 of SV4 on TAPAS.
 + The resistor R\_MISO\_1 is populated on FIKAT but not on TAPAS. 
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are populated on FIKAT but not on TAPAS.
-+ The 0Ohm gate resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 on FIKAT have been changed to 2,2Ohm on TAPAS
-+ The DC-bus capacitor C10 for the 5V-voltage regulator U99 has been upgraded from a standard SMD-electrolytic type on FIKAT to a 39µF polymer type on TAPAS. It can now handle a higher DC ripple current on the dc-bus
-+ We added a TVS-clamping-diode for DC over voltage protection on TAPAS. (Not available on FIKAT). This is to absorb some of the breaking energy if the user forgot to use a breaking chopper
-+ The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on the behaviour
++ The 0Ohm gate resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 on FIKAT have been changed to 2,2Ohm on 
+TAPAS
++ The DC-bus capacitor C10 for the 5V-voltage regulator U99 has been upgraded from a standard SMD-electrolytic type on FIKAT to a 
+39µF polymer type on TAPAS. It can now handle a higher DC ripple current on the dc-bus
++ We added a TVS-clamping-diode for DC over voltage protection on TAPAS. (Not available on FIKAT). This is to absorb some of the 
+breaking energy if the user forgot to use a breaking chopper
++ The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on 
+the behaviour
+
 
 ## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI
 
