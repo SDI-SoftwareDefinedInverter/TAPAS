@@ -306,7 +306,7 @@ The following documents can be helpful in developing with TAPAS:
 1.Delivery: Siemens delivers Siemens evaluation boards, kits, or modules, including any accompanying demonstration software,
 components, and/or documentation which may be provided together or separately (collectively, an “EVM” or “EVMs”) to the User
 (“User”) in accordance with the terms set forth herein. User's acceptance of the EVM is expressly subject to the following terms.
-  1.1 EVMs are intended solely for product or software developers for use in a research and development setting to facilitate feasibility
+1.1 EVMs are intended solely for product or software developers for use in a research and development setting to facilitate feasibility
 evaluation, experimentation, or scientific analysis of Siemens semiconductors products. EVMs have no direct function and are not
 finished products. EVMs shall not be directly or indirectly assembled as a part or subassembly in any finished product. For
 clarification, any software or software tools provided with the EVM (“Software”) shall not be subject to the terms and conditions
@@ -369,7 +369,7 @@ of the following measures:
 + Reorient or relocate the receiving antenna.
 + Increase the separation between the equipment and receiver.
 + Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
-+ Consult the dealer or an experienced radio/TV technician for help.\\
++ Consult the dealer or an experienced radio/TV technician for help.\n
 3.2 Canada
 3.2.1 For EVMs issued with an Industry Canada Certificate of Conformance to RSS-210 or RSS-247
 __Concerning EVMs Including Radio Transmitters:__
