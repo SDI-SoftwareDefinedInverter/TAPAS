@@ -447,9 +447,7 @@ product may cause radio interference in which case the user may be required to t
 4.1 EVMS ARE NOT FOR USE IN FUNCTIONAL SAFETY AND/OR SAFETY CRITICAL EVALUATIONS, INCLUDING BUT NOT
 LIMITED TO EVALUATIONS OF LIFE SUPPORT APPLICATIONS.
 
-4.2 User must read and apply the user guide and other available documentation provided by Siemens regarding the EVM prior to
-handling or using the EVM, including without limitation any warning or restriction notices. The notices contain important safety
-information related to, for example, temperatures and voltages.
+4.2 User must read and apply the quick start guide (this document) and other available documentation provided by Siemens (https://github.com/SDI-SoftwareDefinedInverter/) regarding the EVM prior to handling or using the EVM, including without limitation any warning or restriction notices. The notices contain important safety information related to, for example, temperatures and voltages.
 
 4.3 Safety-Related Warnings and Restrictions:
 
