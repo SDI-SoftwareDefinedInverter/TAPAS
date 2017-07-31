@@ -190,7 +190,7 @@ python3 TAPASstart.py
 + Then follow the prompts on the monitor.
 
 ## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
-
+### (FOR LABORATORY USE ONLY)
 __!CAUTION!__	
 
 __The stock TAPAS firmware implements software features that ensure safe operation.
