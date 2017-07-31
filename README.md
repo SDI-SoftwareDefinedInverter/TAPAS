@@ -151,7 +151,7 @@ breaking energy if the user forgot to use a breaking chopper
 the behaviour
 
 
-## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI
+## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI - FOR LABORATORY USE ONLY
 
 + Create an SD-Card image for your Raspberry Pi Zero (W)
 (<https://www.raspberrypi.org/documentation/installation/installing-images/>)
