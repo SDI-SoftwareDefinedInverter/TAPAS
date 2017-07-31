@@ -151,8 +151,8 @@ breaking energy if the user forgot to use a breaking chopper
 the behaviour
 
 
-## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI - FOR LABORATORY USE ONLY
-
+## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI 
+### (FOR LABORATORY USE ONLY)
 + Create an SD-Card image for your Raspberry Pi Zero (W)
 (<https://www.raspberrypi.org/documentation/installation/installing-images/>)
 + Insert SD card in Raspberry PI Zero (W) and check that the Raspberry PI boots to a command prompt
