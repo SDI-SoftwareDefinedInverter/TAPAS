@@ -132,8 +132,7 @@ We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
 ### Note: Difference between FIKAT (TAPAS pre-release version) and TAPAS (release version)
 There are some PCB differences between the pre-release version (code-name FIKAT - PCB with Siemens & SDI logo) and release version 1.0 (code-name TAPAS - PCB with Siemens and manufacturer logos)
 
-+ The connector of the OLIMEX JTAG programmer does not fit into the JTAG-interface connector SV2 on FIKAT. You have
-to solder a simple 1:1 adapter to make it work (see ugly example below). This has been fixed in TAPAS.  
++ The connector of the OLIMEX JTAG programmer does not pysically fit into the JTAG-interface connector SV2 on FIKAT (it is too wide). You will have to solder a simple 1:1 adapter to make it work (see ugly example below). This has been fixed in TAPAS.  
 + TAPAS has more PINs of the Raspberry-Pi socket (SV4) connected to GND. On FIKAT only pins 34 and 39 are connected to GND. Hence 
 you cannot use a Nano Pi with FIKAT as the GND connection is missing.
 + The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 
