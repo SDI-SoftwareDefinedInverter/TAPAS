@@ -147,6 +147,7 @@ TAPAS
 breaking energy if the user forgot to use a breaking chopper
 + The isolation ICs IC5, IC6 and IC7 on FIKAT have been swapped for a different type on TAPAS  - this should have no influence on 
 the behaviour
++ The current sensors on FIKAT are 20A bidirectional types, this has been changed to a 30A bidirectional type on TAPAS
 
 ![JTAG ADAPTER](images/1_to_1_JTEG_adapter_small.jpg "Figure1 : JTAG ADAPTER")
 
