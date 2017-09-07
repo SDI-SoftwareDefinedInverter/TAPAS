@@ -87,7 +87,7 @@ if (platform.machine() == "i586"):
     spi.open(1,0)
 else :
     # e.g. for raspberry pi zero (w) 
-    spi.open(0,1)
+    spi.open(0,0)
 
 spi.bits_per_word = 8 
 spi.mode = 3
