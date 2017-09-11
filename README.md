@@ -305,7 +305,7 @@ The following documents can be helpful in developing with TAPAS:
 + TAPAS Schematics: 
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAS-Schematic.pdf>
 + This 13document(quick start guide):
-<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASquickStartGuide.pdf>
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAS_quickStartGuide.pdf>
 + InstaSPIN-FOC and InstaSPIN-MOTION user guide : 
 <http://www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
 + Instaspin projects and labs user's guide, see motorware _`<drive>:\ti\motorware\
