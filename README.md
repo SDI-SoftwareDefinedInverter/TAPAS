@@ -120,7 +120,9 @@ Alternatively, you may use any battery with the correct voltage and an appropria
 fuse in the supply line	
 + A __DC brushless motor__	
 + If you want to start programming with TAPAS you will need a __JTAG programmer__.
-We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2
+We recommend using the OLIMEX TMS320-JTAG-USB XDS100-V2. Alternatively, you can use the newer version of this 
+USB-JTAG-emulator called TMS320-XDS100v3+, there you have to leave all the jumpers open and use the __TI_JTAG_20__ 
+connector to connect to your TAPAS-board with a 20pin 1:1 wired cable. 
 + If you want to use TAPAS with __Raspberry PI__ we recommend a Raspberry PI Zero (W)
 + If you want to use TAPAS with __Raspberry PI__ we also recommend the following parts for mechanical stability: 
 	+ 4 screws M2,5 x 6mm (plastic)	
