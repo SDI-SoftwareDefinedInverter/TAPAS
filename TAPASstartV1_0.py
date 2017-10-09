@@ -34,9 +34,12 @@
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ###################################################################################################
 
+# import for platform check
+import platform
+
 # modules for spi communication
 import spidev
-import TAPASCommV1_0
+import TAPASComm
 
 # other modules for data handling
 import struct
@@ -50,6 +53,16 @@ import time
 RATED_CURRENT_RUN = 2.5
 SERVO_MOTOR = "1"
 MODEL_MOTOR = "2"
+
+###
+# this function is necessary for running the script on IOT2000 platform
+# exporting gpio file
+def export_gpio ():
+    export = "/sys/class/gpio/export"
+    file = open(export, 'w')
+    file.write("10")
+export_gpio()
+### 
 
 # defining the names for the states of Controller-state-machine, estimator and custom user errors
 _CTRL_states_ = ["CTRL_State_Error","CTRL_State_Idle","CTRL_State_OffLine","CTRL_State_OnLine","CTRL_numStates","CTRL_State_unknown"]
@@ -67,7 +80,14 @@ print("\x1b]2;%s\x07" % title)
 
 # initialize SPI-HW
 spi = spidev.SpiDev()
-spi.open(0,1)
+
+if (platform.machine() == "i586"):
+    # open spi connection on IOT2040
+    spi.open(1,0)
+else :
+    # e.g. for raspberry pi zero (w) 
+    spi.open(0,1)
+
 spi.bits_per_word = 8 
 spi.mode = 3
 
@@ -75,7 +95,17 @@ spi.mode = 3
 stdscr = curses.initscr()
 curses.noecho()
 curses.cbreak()
-curses.curs_set(False)
+
+###
+# this one is not executable on the iot2040
+if (platform.machine() == "i586"):
+    # do nothing 
+    print("")
+else:
+    # e.g. raspberry pi lib supports this 
+    curses.curs_set(False)
+###
+
 stdscr.keypad(1)
 curses.start_color()
 curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_WHITE)

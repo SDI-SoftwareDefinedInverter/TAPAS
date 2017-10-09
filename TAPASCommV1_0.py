@@ -32,6 +32,9 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ###################################################################################################
+
+# module for platform check
+import platform
                      
 # module for data handling
 import struct
@@ -42,6 +45,29 @@ crc_table = [0] * 256
 # used for crc
 POLY = 0x1021
 START = 0xFFFF
+###
+if (platform.machine() == "i586"):
+    # this is necessary to run the script on IOT2000
+    # (manual control of the CS-pin)
+    #set filename for set_chipselect
+    CS = "/sys/class/gpio/gpio10/value"
+else: 
+    # just do nothing
+    print("")
+
+#function for setting chipselect, necessary only on IOT2000
+def set_chipselect (status):
+    file = open(CS, 'w')
+
+    if(status == 0):
+        file.write("0")
+    elif(status == 1):
+        file.write("1")
+    else:
+        file.write("0")
+
+    file.close()
+###
 
 def GenerateCrcTable():
 	for i in range(0, 256, 1):
@@ -99,7 +125,26 @@ def transferMasterSlave(spi,flags, numPolePairs, ratedCurrent,
     receiver = []
 
     for i in range(0, len(sender), 2):
-        res2 = spi.xfer( [sender[i+1], sender[i]], 4500)
+        ### 
+        # IOT2000 : necessary to set and reset the CS-Pin by hand
+        if (platform.machine() == "i586"):
+            set_chipselect(0)
+        else :
+            # else it's done implicitly
+            print("")
+        ###
+
+        res2 = spi.xfer( [sender[i+1], sender[i]], 20000)
+        
+        ###
+        # IOT2000 : manually drive CS back
+        if (platform.machine() == "i586"):
+            set_chipselect(1) 
+        else : 
+            # else it's done implicitly
+            print("")
+        ###
+
         resp.append(res2[1])
         resp.append(res2[0])
 
