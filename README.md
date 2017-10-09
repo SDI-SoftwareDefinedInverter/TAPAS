@@ -192,6 +192,11 @@ python3 TAPASstart.py
 ```
 + Then follow the prompts on the monitor.
 
+## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
+### (FOR LABORATORY USE ONLY)
+
+Using the IoT2000 platform with 
+
 ## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
 ### (FOR LABORATORY USE ONLY)
 __!CAUTION!__	
