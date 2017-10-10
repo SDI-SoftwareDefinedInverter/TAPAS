@@ -195,9 +195,49 @@ python3 TAPASstart.py
 ## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
 ### (FOR LABORATORY USE ONLY)
 
-Using the IoT2000 platform with 
+It is possible to use the TAPAS-board with the SIMATIC IOT2000-platform without big effort. 
+The following picture shows our evaluation setup that can be used to control the TAPAS 
+with the IOT2000 via a SPI-connection :
 
-## 3. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
+![SIMATIC IOT2040 connected to TAPAS](IOT2000_with_TAPAS/TAPAS_IOT2040_setup.jpg "SIMATIC IOT2040 connected to TAPAS")
+
+All you have to do for being able to use this combination is to follow these steps:
++ set up the IOT2000 using the example image V2.1.4
++ set the jumper for IO-level determination to 3,3V (set right jumper to right position)
++ enable the SPI-interface of the IOT2000 using the following command from the shell:
+```
+iot2000setup
+```
++ add the the python library spidev to the IOT2000 OS:
+```
+pip3 install spidev
+```
++ connect the SPI-interfaces of the IOT2000 and the TAPAS-Board according to the following sketch 
+(e.g. by using jumper wires and a breadboard to get easy connection for example to a logic analyzer): 
+![SIMATIC IOT2040 - TAPAS connection instructions](IOT2000_with_TAPAS/TAPAS-IOT2000.png "SIMATIC IOT2040 - TAPAS connection instructions")
++ ensure that the DIP-switch SW1 is set to ON-OFF-OFF-OFF (from position 1 to 4)
++ as there is no git available for the IOT2000 platform, download the TAPAS-repository from github, transfer it to the IOT2000 
+(e.g. scp, putty, USB-Stick ... ) and unpack it 
++ run the TAPASstart python script: 
+```
+python3 TAPASstart.py
+```
+HINTS: 
+
+You can find a simplified fritzing part for TAPAS here: 
+
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/tree/master/Fritzing_part_TAPAS>
+
+You can find a simplified fritzing part for the SIMATIC IOT2040 and the fritzing project used to generate the cabling diagram here: 
+
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/tree/master/IOT2000_with_TAPAS/Fritzing>
+ 
+ Some images are provided here: 
+ 
+<https://github.com/SDI-SoftwareDefinedInverter/TAPAS/tree/master/IOT2000_with_TAPAS>
+
+
+## 4. GETTING STARTED WITH TAPAS AND CODE COMPOSER STUDIO
 ### (FOR LABORATORY USE ONLY)
 __!CAUTION!__	
 
@@ -278,7 +318,7 @@ Unzip the file place it in:
 
 
 
-## 4. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
+## 5. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
 
 Q: Where can I get a TAPAS board 
 
@@ -303,7 +343,7 @@ causes an abrupt rise in DC voltage. Note that although TAPAS is designed to abs
 board. To prevent this effect, limit the rate of change in motor velocity, use a battery instead of a DC power supply or invest in a current sink
 (breaking chopper).
 
-## 5. REFERENCES
+## 6. REFERENCES
 
 The following documents can be helpful in developing with TAPAS:
 
@@ -320,7 +360,7 @@ motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_
 + TMS320F28069MPZT overview and datasheet: 
 <http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
 
-## 6. STANDARD TERMS FOR EVALUATION MODULES
+## 7. STANDARD TERMS FOR EVALUATION MODULES
 
 1 Delivery: Siemens delivers TAPAS community converter boards (collectively, a “TAPAS BOARD or “TAPAS BOARDS”) to the User (“User”) free of charge in accordance with the terms set forth herein. User's acceptance of the TAPAS BOARD is expressly subject to the following terms.
 
