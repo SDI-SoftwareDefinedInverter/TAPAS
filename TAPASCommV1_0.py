@@ -51,9 +51,6 @@ if (platform.machine() == "i586"):
     # (manual control of the CS-pin)
     #set filename for set_chipselect
     CS = "/sys/class/gpio/gpio10/value"
-else: 
-    # just do nothing
-    print("")
 
 #function for setting chipselect, necessary only on IOT2000
 def set_chipselect (status):
@@ -129,9 +126,6 @@ def transferMasterSlave(spi,flags, numPolePairs, ratedCurrent,
         # IOT2000 : necessary to set and reset the CS-Pin by hand
         if (platform.machine() == "i586"):
             set_chipselect(0)
-        else :
-            # else it's done implicitly
-            print("")
         ###
 
         res2 = spi.xfer( [sender[i+1], sender[i]], 20000)
@@ -140,9 +134,6 @@ def transferMasterSlave(spi,flags, numPolePairs, ratedCurrent,
         # IOT2000 : manually drive CS back
         if (platform.machine() == "i586"):
             set_chipselect(1) 
-        else : 
-            # else it's done implicitly
-            print("")
         ###
 
         resp.append(res2[1])

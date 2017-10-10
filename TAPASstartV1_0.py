@@ -61,7 +61,8 @@ def export_gpio ():
     export = "/sys/class/gpio/export"
     file = open(export, 'w')
     file.write("10")
-export_gpio()
+if (platform.machine() == "i586"):
+    export_gpio()
 ### 
 
 # defining the names for the states of Controller-state-machine, estimator and custom user errors
@@ -98,10 +99,7 @@ curses.cbreak()
 
 ###
 # this one is not executable on the iot2040
-if (platform.machine() == "i586"):
-    # do nothing 
-    print("")
-else:
+if not (platform.machine() == "i586"):
     # e.g. raspberry pi lib supports this 
     curses.curs_set(False)
 ###
