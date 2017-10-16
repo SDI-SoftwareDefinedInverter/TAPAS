@@ -195,12 +195,11 @@ python3 TAPASstart.py
 ## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
 ### (FOR LABORATORY USE ONLY)
 
-The TAPAS-board may be used with the SIMATIC IOT2000-platform with little effort. 
-All you need is a few jumper-wires to connect the SPI interface on the IOT2000 to the TAPAS board
+It is rather straightforward to use TAPAS with SIMATIC IOT2000. All you need is a few jumper-cables to connect their respective SPI interfaces.
 
 ![SIMATIC IOT2040 connected to TAPAS](IOT2000_with_TAPAS/TAPAS_IOT2040_setup.jpg "SIMATIC IOT2040 connected to TAPAS")
 
-The following steps are required:
+Required steps:
 + set-up SIMATIC IOT2000 with image V2.1.4
 + set the IO-level jumper to 3.3V (right-most jumper to right position)
 + enable SIMATIC IOT2000 SPI-interface:
@@ -214,8 +213,7 @@ pip3 install spidev
 + connect the 4 jumper wires as follows: 
 ![SIMATIC IOT2040 - TAPAS connection instructions](IOT2000_with_TAPAS/TAPAS-IOT2000.png "SIMATIC IOT2040 - TAPAS connection instructions")
 + ensure that the DIP-switch SW1 is set to ON-OFF-OFF-OFF (from position 1 to 4)
-+ as there is no git available for the IOT2000 platform, download the TAPAS-repository from github, transfer it to the IOT2000 
-(e.g. scp, putty, USB-Stick ... ) and unpack it 
++ as git is not available on the IOT2000 platform you have to download the TAPAS-repository from github and transfer it to the IOT2000 by hand (e.g. via scp, putty, USB-Stick ... ). Then unpack it. 
 + run the TAPASstart python script: 
 ```
 python3 TAPASstart.py
@@ -230,7 +228,7 @@ You can find a simplified fritzing part for the SIMATIC IOT2040 and the fritzing
 
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/tree/master/IOT2000_with_TAPAS/Fritzing>
  
- Some images are provided here: 
+Additonal images are located here: 
  
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/tree/master/IOT2000_with_TAPAS>
 
