@@ -195,11 +195,11 @@ python3 TAPASstart.py
 ## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
 ### (FOR LABORATORY USE ONLY)
 
-It is rather straightforward to use TAPAS with SIMATIC IOT2000. All you need is a few jumper-cables to connect their respective SPI interfaces.
+It is rather straightforward to use TAPAS with SIMATIC IOT2000. This will allow you to build Siemens MindSphere connected drives applications and more. All you need is a few jumper-cables to connect their respective SPI interfaces.
 
 ![SIMATIC IOT2040 connected to TAPAS](IOT2000_with_TAPAS/TAPAS_IOT2040_setup.jpg "SIMATIC IOT2040 connected to TAPAS")
 
-Required steps:
+Required steps on SIMATIC IOT2000:
 + set-up SIMATIC IOT2000 with image V2.1.4
 + set the IO-level jumper to 3.3V (right-most jumper to right position)
 + enable SIMATIC IOT2000 SPI-interface:
