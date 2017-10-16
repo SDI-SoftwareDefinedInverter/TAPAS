@@ -318,7 +318,7 @@ Unzip the file place it in:
 
 Q: Where can I get a TAPAS board 
 
-A: For now drop a board request in the issues tracker. We will update update this section if more boards become available.
+A: For now, please drop a board request in the issues tracker. We will update this section as more boards become available.
 
 
 Q: Can I use other JTAG-Programmers than the OLIMEX?
