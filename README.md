@@ -210,7 +210,7 @@ iot2000setup
 ```
 pip3 install spidev
 ```
-+ connect the 4 jumper wires as follows: 
++ connect the jumper cables as follows: 
 ![SIMATIC IOT2040 - TAPAS connection instructions](IOT2000_with_TAPAS/TAPAS-IOT2000.png "SIMATIC IOT2040 - TAPAS connection instructions")
 + ensure that the DIP-switch SW1 is set to ON-OFF-OFF-OFF (from position 1 to 4)
 + as git is not available on the IOT2000 platform you have to download the TAPAS-repository from github and transfer it to the IOT2000 by hand (e.g. via scp, putty, USB-Stick ... ). Then unpack it. 
