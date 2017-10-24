@@ -295,7 +295,7 @@ Projects and Labs User's Guide"_ which comes with the motorware-installation
 and is located in _`<drive>:\ti\motorware\motorware_1_01_00_16\docs\labs\  
 instaspin_labs.pdf`_ of the motorware installation.There you can find further 
 information on how to compile the firmware, start a debugging session, flash the DSP and get an
-impression, what all the program components actually do. Please keep in mind that all labs are designed to drive two motors independently - this is not possible with TAPAS as there is only one 3-phase power stage.
+impression, what all the program components actually do. Please keep in mind that all the labs that are designed to drive two motors independently are skipped - this is not possible with TAPAS because there is only one 3-phase power stage.
 
 To be able to run our TAPAS demo-webapp you also require the InstaSPIN-UNIVERSALGUI from Texas Instruments which you can get here:
 
