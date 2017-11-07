@@ -210,8 +210,10 @@ iot2000setup
 ```
 pip3 install spidev
 ```
-+ connect the jumper cables as follows: 
++ connect the jumper cables as follows:
+ 
 ![SIMATIC IOT2040 - TAPAS connection instructions](IOT2000_with_TAPAS/TAPAS-IOT2000.png "SIMATIC IOT2040 - TAPAS connection instructions")
+
 + ensure that the DIP-switch SW1 is set to ON-OFF-OFF-OFF (from position 1 to 4)
 + as git is not available on the IOT2000 platform you have to download the TAPAS-repository from github and transfer it to the IOT2000 by hand (e.g. via scp, putty, USB-Stick ... ). Then unpack it. 
 + run the TAPASstart python script: 
@@ -288,23 +290,33 @@ In the "Discovered projects" - list below you will see all the projects in the s
 Here you can choose, for example, the _"TAPAS\_quick\_start"_ project which represents the stock demo firmware to be used with the python - script for Raspberry PI.
 
 For all the other projects in the folders _`<drive>:\ti\motorware\motorware_1_  
-01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\ `_
-and _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_motion\  
-boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\ `_ please consider the _"InstaSPIN  
-Projects and Labs User's Guide"_ which comes with the motorware-installation 
-and is located in _`<drive>:\ti\motorware\motorware_1_01_00_16\docs\labs\  
-instaspin_labs.pdf`_ of the motorware installation.There you can find further 
-information on how to compile the firmware, start a debugging session, flash the DSP and get an
-impression, what all the program components actually do. Please keep in mind that all the labs that are designed to drive two motors independently are skipped - this is not possible with TAPAS because there is only one 3-phase power stage.
+01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\
+projects\ccs5\ `_
+and _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\
+solutions\instaspin_motion\boards\TAPAS_V1_0\f28x\f2806xF\projects\
+ccs5\ `_ please consider the _"InstaSPIN Projects and Labs User's 
+Guide"_ which comes with the motorware-installation and is located 
+in _`<drive>:\ti\motorware\
+motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_ of the motorware 
+installation.There you can find further 
+information on how to compile the firmware, start a debugging session, 
+flash the DSP and get an impression, what all the program components 
+actually do. Please keep in mind that all the labs that are designed 
+to drive two motors independently are skipped - this is not possible 
+with TAPAS because there is only one 3-phase power stage.
 
-To be able to run our TAPAS demo-webapp you also require the InstaSPIN-UNIVERSALGUI from Texas Instruments which you can get here:
+To be able to run our TAPAS demo-webapp you also require the Insta
+SPIN-UNIVERSALGUI from Texas Instruments which you can get here:
 
 <http://www.ti.com/tool/INSTASPINUNIVERSALGUI>
 
-You have now completed the installation of the TAPAS development environment. We have also created a TAPAS-webapp to test all external I/O hardware. You can download it from:	
+You have now completed the installation of the TAPAS development environment. 
+We have also created a TAPAS-webapp to test all external I/O hardware. 
+You can download it from:	
 
 ```
-https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPASwebapp.zip
+https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/
+TAPASwebapp.zip
 ```
 Unzip the file place it in:
 
@@ -351,8 +363,8 @@ The following documents can be helpful in developing with TAPAS:
 <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/TAPAS_quickStartGuide.pdf>
 + InstaSPIN-FOC and InstaSPIN-MOTION user guide : 
 <http://www.ti.com/lit/ug/spruhj1g/spruhj1g.pdf>
-+ Instaspin projects and labs user's guide, see motorware _`<drive>:\ti\motorware\
-motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_
++ Instaspin projects and labs user's guide, see motorware _`<drive>:\ti
+\motorware\motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_
 + TMS320F28069MPZT overview and datasheet: 
 <http://www.ti.com/lit/ug/spruh18g/spruh18g.pdf>
 
