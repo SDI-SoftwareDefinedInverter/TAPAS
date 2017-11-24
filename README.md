@@ -1,6 +1,6 @@
 ## SDI TAPAS - Community Inverter - Quick-Start Guide
 
-![PCB](images/TAPAS_both_sides.JPG "PCB")
+![PCB](images/TAPAS_both_sides2.JPG "PCB")
 
 Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 
