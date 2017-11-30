@@ -178,12 +178,13 @@ git clone https://github.com/SDI-SoftwareDefinedInverter/TAPAS.git
 ```
 sudo halt
 ```
-+ Set the SPI-Address select DIP switch to (OFF)-(ON)-(OFF)-(OFF) for the switch 
++ Set the SPI-Address select DIP switch to (ON)-(OFF)-(OFF)-(OFF) for the switch 
 positions from (1) - (4) (see pinout)
 + Disconnect the Raspberry PI from any power source and plug it into the TAPAS
 Raspberry PI board connector (see pinout).
 + Connect your TAPAS board to a DC power supply and to a DC brushless motor (see pinout).
 + Set the supply voltage to 12V with 3A current limit and turn it on.
++ if your motor will not start turning, it may help to increase the supply voltage but of course only up to 48V at the maximum
 + Log into your Raspberry PI and type
 
 ```
