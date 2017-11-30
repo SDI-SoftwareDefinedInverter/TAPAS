@@ -186,6 +186,7 @@ Raspberry PI board connector (see pinout).
 + Set the supply voltage to 12V with 3A current limit and turn it on.
 + if your motor will not start turning, it may help to increase the supply voltage but of course only up to 48V at the maximum
 + Log into your Raspberry PI and type
++ HINT: It is strongly recommended to never run the application without any motor or load connected to the terminals!
 
 ```
 cd ~/TAPAS
