@@ -24,16 +24,15 @@ __Only enable power supply if set-up is scured in case.__
 
 <table style="width:100%;background-color:white" cellspacing="0" cellpadding="0" border="0" >
   <tr  border="0" bgcolor="#FFFFFF">
-    <th><img src="images/esd.png" width="250px"></th>
+    <th><img src="images/esd.png" width="250px"><br>
+	 <img src="images/erad.png" width="250px">
+	    
+	  
+	  </th>
 	  <th align="left"><b>
 	  The TAPAS board is very sensitive to electrostatic discharge - handle with	
-		  care! Never touch the board if the supply voltage is turned on!</b>
-		  </th>
-	</tr>
-	<tr >
-
-<th  border="0" bgcolor="#FFFFFF"><img src="images/erad.png" width="250px"></th>
-<th  border="0" bgcolor="#FFFFFF"><b>
+		  care! Never touch the board if the supply voltage is turned on!<br>
+		  <br>		
 The TAPAS board may emmit electromagentic radiation! Do not operate the board in proximity to devices that are susceptible to electromagentic interference. Do not operate if pacemaker patients are in the room.
 		  </b>
 	  </th>	  
