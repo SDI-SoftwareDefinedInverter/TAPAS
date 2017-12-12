@@ -24,8 +24,8 @@ __Only enable power supply if set-up is scured in case.__
 
 <table style="width:100%;background-color:white" cellspacing="0" cellpadding="0" border="0" >
   <tr>
-    <th><img src="images/esd.png" width="250px"><br>
-	 <img src="images/erad.png" width="250px"></th>
+    <th><img src="images/esd.png" width="150px"><br>
+	 <img src="images/erad.png" width="150px"></th>
 	  <th align="left"><b>
 	  The TAPAS board is very sensitive to electrostatic discharge - handle with	
 		  care! Never touch the board if the supply voltage is turned on!<br>
