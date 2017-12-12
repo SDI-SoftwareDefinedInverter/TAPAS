@@ -11,7 +11,7 @@ laboratory use only and may only be operated by experienced personell (engineers
 (see section 6)
 
 The TAPAS board as well as connected devices can get __very hot, never touch during	
-operation and/and cool-down period. Always use an appropriate case. __ 
+operation and/or cool-down period. Always use an appropriate case.__ 
 
 __If the TAPAS board is used in conjunction with mechanical,
 electromagnetic, acoustic, optical or other components,__ e.g. a motor
