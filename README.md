@@ -22,10 +22,19 @@ limiting) and __limit the supply current and voltage (strictly <=48V).__
 
 __Only enable power supply if set-up is scured in case.__
 
-<img src="images/esd.png" width="50px">The TAPAS board is very __sensitive to electrostatic discharge - handle with	
+<table style="width:100%">
+  <tr>
+    <th><img src="images/esd.png" width="150px"></th>
+	  <th>
+	  The TAPAS board is very __sensitive to electrostatic discharge - handle with	
 care! Never touch the board if the supply voltage is turned on!__
 
 The TAPAS board may emmit __electromagentic radiation! Do not operate the board in proximity to devices that are susceptible to electromagentic interference. Do not operate if pacemaker patients are in the room.__
+	  
+	  </th>	  
+  </tr>
+</table>
+
 
 
  
