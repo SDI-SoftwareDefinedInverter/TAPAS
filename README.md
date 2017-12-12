@@ -16,7 +16,7 @@ operation and/or cool-down period. Always use an appropriate case.__
 __If the TAPAS board is used in conjunction with mechanical,
 electromagnetic, acoustic, optical or other components,__ e.g. a motor
 drive, __significant forces can occur. Always ensure safety, containment and (mechanical) stability of the
-entire set-up including case base plate and/or table! Prevent direct physical contact, always place set-up
+entire set-up including case, base plate and/or table! Prevent direct physical contact, always place set-up
 in an appropriate case, employ safe software techniques__ (e.g. torque and temperature
 limiting) and __limit the supply current and voltage (strictly <=48V).__
 
