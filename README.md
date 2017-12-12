@@ -103,6 +103,14 @@ explore the endless possibilities that the platform provides.
 + CAN, GPIO, UART, SPI, 2 x QEP (encoder) interface onboard
 + Raspberry-Pi compatible
 
+### Notice
++ Never exceed 48V operating voltage and ensure correct polarity of the power supply. Incorrect polarity will destroy the board.
++ Never short circuit the inverter output. This will most likely damage the board. 
++ In case of board failiure, disconnect power source immediately. Never inhale fumes comming from the board.
++ Never disconnect the power source from the board while in operation, this may damage or destroy the board.
+
+
+
 ### TAPAS pinout
 ![TAPAS PINOUT](images/TAPAS_V1.0%20-%20Pinout.png "Figure1 : TAPAS pinout")
 
