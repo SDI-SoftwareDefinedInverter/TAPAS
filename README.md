@@ -377,6 +377,18 @@ causes an abrupt rise in DC voltage. Note that although TAPAS is designed to abs
 board. To prevent this effect, limit the rate of change in motor velocity, use a battery instead of a DC power supply or invest in a current sink
 (breaking chopper).
 
+
+Q: My motor is making some noise but does not start turning during the identification procedure from the examples. 
+
+A: Slightly increase the supply voltage for the TAPAS-board and retry the identification of your motor. Never exceed
+48V supply voltage as this will damage or even destroy your board! Also check the current rating of your motor again
+and make sure you have set it correctly.
+
+Q: I get an overcurrent protection message during motor identification. 
+
+A: If this happens once, just retry the identification procedure. If this happens permanently, check your current rating again. 
+Always keep in mind that the curent sensors on TAPAS can only measure +-30A at their maximum.
+
 ## 6. REFERENCES
 
 The following documents can be helpful in developing with TAPAS:
