@@ -163,7 +163,6 @@ There are some PCB differences between the pre-release version (code-name FIKAT 
 you cannot use a Nano Pi with FIKAT as the GND connection is missing.
 + The SPI-Chip select signal (GPIO53) is connected to pin26 of SV4 via the address DIP-switch (2) on FIKAT. This has moved to pin 
 16 of SV4 on TAPAS.
-+ The resistor R\_MISO\_1 is populated on FIKAT but not on TAPAS. 
 + The resistors R\_TXA1, R\_RXA1, R\_TXB1 and R\_RXB1 are populated on FIKAT but not on TAPAS.
 + The 0Ohm gate resistors R19, R23, R20, R24, R12, R14, R16, R15, R17, R18, R22, R21 on FIKAT have been changed to 2,2Ohm on 
 TAPAS
