@@ -30,10 +30,10 @@ __Only enable power supply if set-up is scured in case.__
 		  care! Never touch the board if the supply voltage is turned on!</b>
 		  </th>
 	</tr>
-	<tr  border="0" bgcolor="#FFFFFF">
+	<tr >
 
-<th><img src="images/erad.png" width="250px"></th>
-<th><b>
+<th  border="0" bgcolor="#FFFFFF"><img src="images/erad.png" width="250px"></th>
+<th  border="0" bgcolor="#FFFFFF"><b>
 The TAPAS board may emmit electromagentic radiation! Do not operate the board in proximity to devices that are susceptible to electromagentic interference. Do not operate if pacemaker patients are in the room.
 		  </b>
 	  </th>	  
