@@ -20,7 +20,7 @@ entire set-up including case, base-plate and/or table! Prevent direct physical c
 in an appropriate case, employ safe software techniques__ (e.g. torque and temperature
 limiting) and __limit the supply current and voltage (strictly <=48V).__
 
-__Only enable power supply if set-up is scured in case.__
+__Only enable power supply if set-up is secured in case.__
 
 <table style="width:100%;background-color:white" cellspacing="0" cellpadding="0" border="0" >
   <tr>
