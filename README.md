@@ -23,14 +23,14 @@ limiting) and __limit the supply current and voltage (strictly <=48V).__
 __Only enable power supply if set-up is scured in case.__
 
 <table style="width:100%" border="0" bgcolor="#FFFFFF" >
-  <tr>
+  <tr  border="0" bgcolor="#FFFFFF">
     <th><img src="images/esd.png" width="250px"></th>
 	  <th align="left"><b>
 	  The TAPAS board is very sensitive to electrostatic discharge - handle with	
 		  care! Never touch the board if the supply voltage is turned on!</b>
 		  </th>
 	</tr>
-	<tr>
+	<tr  border="0" bgcolor="#FFFFFF">
 
 <th><img src="images/erad.png" width="250px"></th>
 <th><b>
