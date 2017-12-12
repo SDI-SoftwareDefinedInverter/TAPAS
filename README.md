@@ -22,7 +22,7 @@ limiting) and __limit the supply current and voltage (strictly <=48V).__
 
 __Only enable power supply if set-up is scured in case.__
 
-<table style="width:100%" border="0">
+<table style="width:100%" border="0" bgcolor="#FFFFFF" >
   <tr>
     <th><img src="images/esd.png" width="250px"></th>
 	  <th align="left"><b>
