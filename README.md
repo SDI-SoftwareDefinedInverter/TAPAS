@@ -7,21 +7,26 @@ Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 __!CAUTION!__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
-laboratory use only. Never use it in a productive environment!__
+laboratory use only and may only be operated by experienced personell (engineers, scientists, qualified makers). Never use it in a productive or explosive environment! Never operate without supervision!__
 (see section 6)
 
-The TAPAS board can get __very hot, never touch the board during	
-operation. Always use an appropriate case.__
+The TAPAS board as well as connected devices can get __very hot, never touch during	
+operation and/and cool-down period. Always use an appropriate case. __ 
 
 __If the TAPAS board is used in conjunction with mechanical,
 electromagnetic, acoustic, optical or other components,__ e.g. a motor
-drive, __significant forces can occur. Always ensure safety of the
-entire set-up! Prevent direct physical contact, always place set-up
-in an appropriate case, employ safe software techniques__ (e.g. torque
-limiting) and __limit the supply current.__
+drive, __significant forces can occur. Always ensure safety, containment and (mechanical) stability of the
+entire set-up including base/table! Prevent direct physical contact, always place set-up
+in an appropriate case, employ safe software techniques__ (e.g. torque and temperature
+limiting) and __limit the supply current and voltage (strictly <=48V).__
 
-The device is very __sensitive to electrostatic discharge - handle with	
+__Only enable power supply if set-up is scured in case.__
+
+The TAPAS board is very __sensitive to electrostatic discharge - handle with	
 care! Never touch the board if the supply voltage is turned on!__
+
+The TAPAS board may emmit __electromagentic radiation! Do not operate the board in proximity to devices that are susceptible to electromagentic interference. Do not operate if pacemaker patients are in the room.__
+
 
  
 ## Foreword and acknowledgements
