@@ -384,7 +384,7 @@ A: Slightly increase the supply voltage for the TAPAS-board and retry the identi
 48V supply voltage as this will damage or even destroy your board! Also check the current rating of your motor again
 and make sure you have set it correctly.
 
-Q: I get an overcurrent protection message during motor identification. 
+Q: I get an overcurrent protection message during motor identification in your Raspberry PI example. 
 
 A: If this happens once, just retry the identification procedure. If this happens permanently, check your current rating again. 
 Always keep in mind that the curent sensors on TAPAS can only measure +-30A at their maximum.
