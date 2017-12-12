@@ -109,7 +109,7 @@ explore the endless possibilities that the platform provides.
 + Up to 300W continuous power - passively cooled (@>120kHz switching frequency)
 + Switching frequency up to 600 kHz at reduced load
 + On-board output-filter enables smooth output voltage
-+ Texas Instruments C2000 Piccolo (TMS320F28069M) DSP - InstaSPIN-enabled
++ Texas Instruments C2000 Piccolo (TMS320F28069M) DSP - InstaSPIN MOTION-enabled
 + CAN, GPIO, UART, SPI, 2 x QEP (encoder) interface onboard
 + Raspberry-Pi compatible
 
@@ -119,7 +119,7 @@ explore the endless possibilities that the platform provides.
 + In case of board failiure, disconnect power source immediately. Never inhale fumes comming from the board.
 + Never disconnect the power source from the board while in operation, this may damage or destroy the board.
 + Only connect appropriate loads/sources to the board, inappropriate loads/sources (e.g. high powered generators) may damage the board
-+ In order to use TAPAS with motor drives some basic information is required, in particular number of pole pairs.
++ In order to use TAPAS with motor drives some basic information is required, in particular number of pole pairs and maximum rated current.
 
 
 ### TAPAS pinout
