@@ -7,7 +7,7 @@ Use your TAPAS board with Raspberry PI or Texas Instruments InstaSPIN
 __!CAUTION!__
 
 __The TAPAS community inverter board is not a toy!__ It is __intended for
-laboratory use only and may only be operated by experienced personell (engineers, scientists, qualified makers). Never use it in a productive or explosive environment! Never operate without supervision!__
+laboratory use only and may only be operated by experienced personell (engineers, scientists, qualified makers). Never use it in a productive or potentially explosive environment! Never operate without supervision!__
 (see section 6)
 
 The TAPAS board as well as connected devices can get __very hot, never touch during	
