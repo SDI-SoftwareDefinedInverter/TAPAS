@@ -115,7 +115,7 @@ explore the endless possibilities that the platform provides.
 
 ### Notice
 + Never exceed 48V operating voltage and ensure correct polarity of the power supply. Incorrect polarity will destroy the board.
-+ Never short circuit the inverter output. This will most likely destroy the board. 
++ Never short-circuit the inverter output and never enable high- and low-side switches at the same time. Always ensure the minimum dead time between switching off/on low and high side sitches of half-bridges. Failure to do so will most likely destroy the board.
 + In case of board failiure, disconnect power source immediately. Never inhale fumes comming from the board.
 + Never disconnect the power source from the board while in operation, this may damage or destroy the board.
 + Only connect appropriate loads/sources to the board, inappropriate loads/sources (e.g. high powered generators) may damage the board
