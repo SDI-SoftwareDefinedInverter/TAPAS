@@ -313,11 +313,10 @@ and click the "OK" button.
 In the "Discovered projects" - list below you will see all the projects in the selected directory.
 Here you can choose, for example, the _"TAPAS\_quick\_start"_ project which represents the stock demo firmware to be used with the python - script for Raspberry PI.
 
-For all the other projects in the folders _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\ `_
-and _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_motion\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\ `_ please consider the _"InstaSPIN Projects and Labs User's 
+For all the other projects in the folders _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_foc\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\`_
+and _`<drive>:\ti\motorware\motorware_1_01_00_16\sw\solutions\instaspin_motion\boards\TAPAS_V1_0\f28x\f2806xF\projects\ccs5\`_ please consider the _"InstaSPIN Projects and Labs User's 
 Guide"_ which comes with the motorware-installation and is located 
-in _`<drive>:\ti\motorware\
-motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_ of the motorware 
+in _`<drive>:\ti\motorware\motorware_1_01_00_16\docs\labs\instaspin_labs.pdf`_ of the motorware 
 installation.There you can find further 
 information on how to compile the firmware, start a debugging session, 
 flash the DSP and get an impression, what all the program components 
@@ -325,8 +324,7 @@ actually do. Please keep in mind that all the labs that are designed
 to drive two motors independently are skipped - this is not possible 
 with TAPAS because there is only one 3-phase power stage.
 
-To be able to run our TAPAS demo-webapp you also require the Insta
-SPIN-UNIVERSALGUI from Texas Instruments which you can get here:
+To be able to run our TAPAS demo-webapp you also require the InstaSPIN-UNIVERSALGUI from Texas Instruments which you can get here:
 
 <http://www.ti.com/tool/INSTASPINUNIVERSALGUI>
 
