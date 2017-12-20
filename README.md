@@ -301,7 +301,7 @@ dos2unix SDITAPASmotorwarePatch.patch
 patch -p0 -i SDITAPASmotorwarePatch.patch
 ```
 
-This completes the installation of motorware und you can start playing with the motorware-labs
+This completes the installation of motorware and you can start playing with the motorware-labs
 and the quick-start demo firmware. To add the quick-start project, start Code Composer 
 Studio and choose a workspace location. Close the welcome-window and then select 
 "Project-\>Import CCS Projects..." In the upcoming window choose the option "Select search-directory"
