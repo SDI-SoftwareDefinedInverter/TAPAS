@@ -209,13 +209,13 @@ Raspberry PI board connector (see pinout).
 + Set the supply voltage to 12V with 3A current limit and turn it on.
 + if your motor will not start turning, it may help to increase the supply voltage but of course only up to 48V at the maximum
 + Log into your Raspberry PI and type
-+ HINT: It is strongly recommended to never run the application without any motor or load connected to the terminals!
 
 ```
 cd ~/TAPAS
 python3 TAPASstart.py
 ```
 + Then follow the prompts on the monitor.
++ HINT: It is strongly recommended to never run the application without any motor or load connected to the terminals!
 
 ## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
 ### (FOR LABORATORY USE ONLY)
