@@ -98,7 +98,7 @@ _Allegro Microsystems_ <http://www.allegromicro.com>
 
 This quick-start-guide will lead you through the necessary steps to get TAPAS
 up and running with most commercially available DC-brushless motors.
-If you are new to Texas Instrument DSPs or power conversion, we advise you	
+If you are new to Texas Instruments DSPs or power conversion, we advise you	
 to start with this guide. It will take you through the necessary steps to set-up 
 your (coding) environment and bring the board to life. You are then free to
 explore the endless possibilities that the platform provides.
