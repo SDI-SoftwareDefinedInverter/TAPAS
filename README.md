@@ -30,7 +30,7 @@ __Only enable power supply if set-up is secured in case.__
 	  The TAPAS board is very sensitive to electrostatic discharge - handle with	
 		  care! Never touch the board if the supply voltage is turned on!<br>
 		  <br>		
-The TAPAS board may emmit electromagentic radiation! Do not operate the board in proximity to devices that are susceptible to electromagentic interference. Do not operate if pacemaker patients are in the room.
+The TAPAS board may emmit electromagnetic radiation! Do not operate the board in proximity to devices that are susceptible to electromagnetic interference. Do not operate if pacemaker patients are in the room.
 		  </b>
 	  </th>	  
   </tr>
