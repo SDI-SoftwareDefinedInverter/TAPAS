@@ -72,7 +72,7 @@ Elektronik and Allegro Micro who sponsored most of the active and passive
 components on the board (see bill of materials). I hope you will have as much 
 fun with TAPAS as we had making it.
 
-Dominic Buchstaller (concept, community, lead-design - TAPAS)
+Dominic Buchstaller - concept, lead-design - TAPAS
 
 __Created by :__
 
@@ -179,6 +179,9 @@ the behaviour
 
 ## 2. GETTING STARTED WITH TAPAS AND RASPBERRY PI 
 ### (FOR LABORATORY USE ONLY)
+###
+### Note: TI Instaspin motor identification is not 100% reliable for every motor. Success depends on motor type, supply voltage and supply current (see below).
+
 + Create an SD-Card image for your Raspberry Pi Zero (W)
 (<https://www.raspberrypi.org/documentation/installation/installing-images/>)
 + Insert SD card in Raspberry PI Zero (W) and check that the Raspberry PI boots to a command prompt
@@ -206,7 +209,7 @@ positions from (1) - (4) (see pinout)
 + Disconnect the Raspberry PI from any power source and plug it into the TAPAS
 Raspberry PI board connector (see pinout).
 + Connect your TAPAS board to a DC power supply and to a DC brushless motor (see pinout).
-+ Set the supply voltage to 12V with 3A current limit and turn it on.
++ Set the supply voltage to 24V with 5A current limit and turn it on (if the identification fails, repeat and increase current limit).
 + if your motor will not start turning, it may help to increase the supply voltage but of course only up to 48V at the maximum
 + Log into your Raspberry PI and type
 
