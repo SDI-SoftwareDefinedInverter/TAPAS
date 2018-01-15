@@ -209,15 +209,16 @@ positions from (1) - (4) (see pinout)
 + Disconnect the Raspberry PI from any power source and plug it into the TAPAS
 Raspberry PI board connector (see pinout).
 + Connect your TAPAS board to a DC power supply and to a DC brushless motor (see pinout).
-+ Set the supply voltage to 24V with 5A current limit and turn it on (if the identification fails, repeat and increase current limit).
-+ if your motor will not start turning, it may help to increase the supply voltage but of course only up to 48V at the maximum
++ Set the supply voltage to 24V with 5A current limit and turn it on
++ If your motor does not start turning, increasing the supply voltage may help (
 + Log into your Raspberry PI and type
 
 ```
 cd ~/TAPAS
 python3 TAPASstart.py
 ```
-+ Then follow the prompts on the monitor.
++ Then follow the prompts on the monitor
++ If the identification fails, repeat the process and increase current/voltage limit
 + HINT: It is strongly recommended to never run the application without any motor or load connected to the terminals!
 
 ## 3. GETTING STARTED WITH TAPAS AND SIEMENS IoT2000
