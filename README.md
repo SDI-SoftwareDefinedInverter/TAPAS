@@ -181,6 +181,7 @@ the behaviour
 ### (FOR LABORATORY USE ONLY)
 ###
 ### Note: TI Instaspin motor identification is not 100% reliable for every motor. Success depends on motor type, supply voltage and supply current (see below).
+### Note: The stock firmware limits the board current to 6A and the board temperature to 80°C
 
 + Create an SD-Card image for your Raspberry Pi Zero (W)
 (<https://www.raspberrypi.org/documentation/installation/installing-images/>)
