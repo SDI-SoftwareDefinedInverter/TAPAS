@@ -353,8 +353,7 @@ Unzip the file place it in:
 
 Q: Where can I get a TAPAS board 
 
-A: For now, please drop a board request in the issues tracker. We will update this section as more boards become available.
-
+A: Easy - join the TAPAS comunity challenge <https://challenge.tapas.sdi.tools/>, pitch an idea and get a free board. There are also neat prizes to win if you like that kind of thing.
 
 Q: Can I use other JTAG-Programmers than the OLIMEX?
 
