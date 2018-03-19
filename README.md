@@ -54,7 +54,7 @@ rather limited bandwidth and/or produce a square output wave-form.
 
 This unique feature of high bandwidth and smooth output makes TAPAS to 
 some degree universal, giving rise to educational applications in AC and DC 
-drives, DC/DC power conversion, audio, robotics, magnetic field control, 
+[drives](https://www.youtube.com/watch?v=yvK9VINiwhw&feature=youtu.be), DC/DC power conversion, [audio](https://www.youtube.com/watch?v=IIk90JD8xEQ), robotics, magnetic field control, 
 battery charging, etc. Note that universality is achieved with a single, fixed 
 hardware platform where the overall functionality is defined via software 
 (changes) only – the reason why we coined the term “Software Defined 
@@ -73,6 +73,8 @@ components on the board (see bill of materials). I hope you will have as much
 fun with TAPAS as we had making it.
 
 Dominic Buchstaller - concept, lead-design - TAPAS
+
+Also see <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/SDI_TAPAS_introduction.pdf>. 
 
 __Created by :__
 
