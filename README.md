@@ -74,7 +74,7 @@ fun with TAPAS as we had making it.
 
 Dominic Buchstaller - concept, lead-design - TAPAS
 
-Also see <https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/SDI_TAPAS_introduction.pdf>. 
+*For a more visual motivation also see the [TAPAS slide deck](https://github.com/SDI-SoftwareDefinedInverter/TAPAS/blob/master/SDI_TAPAS_introduction.pdf).* 
 
 __Created by :__
 
