@@ -36,9 +36,6 @@ The TAPAS board may emmit electromagnetic radiation! Do not operate the board in
   </tr>
 </table>
 
-
-
- 
 ## Foreword and acknowledgements
 
 This board (TAPAS) is intended to train the next generation of power 
@@ -74,7 +71,7 @@ fun with TAPAS as we had making it.
 
 Dominic Buchstaller - concept, lead-design - TAPAS
 
-*For a more visual motivation also see the TAPAS [slide deck](images/siemens_logo_vsmall.png).*
+*For a more visual motivation also see the TAPAS [slide deck](20180312_Short Description_TAPAS_Challenge.pdf).*
 
 __Created by :__
 
