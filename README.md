@@ -74,6 +74,8 @@ fun with TAPAS as we had making it.
 
 Dominic Buchstaller - concept, lead-design - TAPAS
 
+*For a more visual motivation also see the TAPAS [slide deck](images/siemens_logo_vsmall.png).*
+
 __Created by :__
 
 ![SIEMENS LOGO](images/siemens_logo_vsmall.png "SIEMENS LOGO")
