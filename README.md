@@ -57,7 +57,7 @@ hardware platform where the overall functionality is defined via software
 (changes) only – the reason why we coined the term “Software Defined 
 Inverter” (SDI). 
 
-TAPAS is Raspberry PI compatible and multiple boards can be used in 
+TAPAS is designed of Raspberry PI and multiple boards can be used in 
 collaboration, giving rise to many-phase applications such as quadrocopters 
 or multi-axis servo control. Together with open-source code examples and 
 extensive documentation we made TAPAS as accessible to the community as 
