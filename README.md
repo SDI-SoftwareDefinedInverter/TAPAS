@@ -350,9 +350,15 @@ Unzip the file place it in:
 
 ## 5. FREQUENTLY ASKED QUESTIONS / TROUBLE SHOOTING
 
-Q: Where can I get a TAPAS board 
+Q: Where can I get a TAPAS board?
 
-A: Easy - join the TAPAS comunity challenge <https://challenge.tapas.sdi.tools/>, pitch an idea and get a free board. There are also neat prizes to win if you like that kind of thing.
+A: The TAPAS board is provided for free – just write a few lines to tapas.support.ct@siemens.com what you intend to do with it. For legal reasons we are limited to ship the board only within the EU atm - we are working on expanding this limitation.
+
+
+Q: Where can I find example projects?
+
+A: You can find use cases and a number of user build projects on the community site <https://challenge.tapas.sdi.tools/>
+
 
 Q: Can I use other JTAG-Programmers than the OLIMEX?
 
